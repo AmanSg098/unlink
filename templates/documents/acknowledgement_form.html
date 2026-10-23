@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% block content %}
+<h1>Acknowledgement of receipt</h1>
+<div class="body">
+<p>I, {{ employee_name }} (employee code {{ employee_code }}), acknowledge that I have received the documents listed below from {{ company_name }}.</p>
+</div>
+<table>
+  <tr><th>Document</th><th>Version</th><th>Issued</th></tr>
+  {% for d in documents %}<tr><td>{{ d.title }}</td><td>{{ d.version }}</td><td>{{ d.issued_at }}</td></tr>{% endfor %}
+</table>
+<p>Acknowledging receipt does not mean agreeing with the contents.</p>
+<div class="sign">Signature: ______________________ &nbsp;&nbsp; Date: ______________</div>
+{% endblock %}

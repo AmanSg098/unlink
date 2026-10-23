@@ -1,0 +1,251 @@
+employee_code,full_name,department,role,location,hire_date,annual_ctc,performance_rating,potential_rating,critical_skill_score,gender,age_band,leave_status,protected_flag,kpi_engagement_score,kpi_quota_attainment,email,personal_email,employment_type,confirmation_date,contract_end_date,contract_notice_days,manager_code
+E0001,Noor Nair,Support,Support Specialist,Hyderabad,2021-02-03,809000,3.6,3.0,3.4,Female,40-49,none,false,3.2,,noor.nair.e0001@democorp.in,noor.e0001@example.com,permanent,2021-08-02,,30,E0002
+E0002,Aarav Gupta,Support,Support Lead,Pune,2023-06-20,1309000,3.4,3.1,4.2,Male,<30,none,false,3.8,,aarav.gupta.e0002@democorp.in,aarav.e0002@example.com,permanent,2023-12-17,,60,
+E0003,Vivaan Bose,Sales,Sales Manager,Delhi,2013-01-17,2058000,4.1,3.1,3.3,Male,40-49,none,false,3.2,0.98,vivaan.bose.e0003@democorp.in,vivaan.e0003@example.com,fixed_term,,2027-06-26,60,
+E0004,Aditya Patel,Engineering,Software Engineer,Hyderabad,2024-01-12,2286000,4.4,3.0,4.3,Female,<30,none,false,3.2,,aditya.patel.e0004@democorp.in,aditya.e0004@example.com,permanent,2024-07-10,,30,E0107
+E0005,Neha Gupta,Engineering,Staff Engineer,Pune,2011-04-04,3083000,3.3,4.2,4.9,Male,40-49,none,false,3.2,,neha.gupta.e0005@democorp.in,neha.e0005@example.com,permanent,2011-10-01,,60,
+E0006,Isha Singh,Finance,Analyst,Delhi,2026-03-24,869000,3.2,3.8,2.5,Male,<30,none,false,3.6,,isha.singh.e0006@democorp.in,isha.e0006@example.com,permanent,2026-09-20,,30,E0068
+E0007,Saanvi Pillai,Operations,Ops Manager,Hyderabad,2025-01-08,1162000,1.8,2.2,1.6,Female,<30,none,false,3.2,,saanvi.pillai.e0007@democorp.in,saanvi.e0007@example.com,permanent,2025-07-07,,60,
+E0008,Kavya Shetty,Marketing,Marketing Associate,Hyderabad,2024-10-16,788000,5,2.4,2.4,Female,<30,none,false,3.4,,kavya.shetty.e0008@democorp.in,kavya.e0008@example.com,permanent,2025-04-14,,30,E0162
+E0009,Zara Rao,Operations,Ops Associate,Pune,2014-07-18,654000,2.5,3.6,4.5,Male,30-39,none,false,3.2,,zara.rao.e0009@democorp.in,zara.e0009@example.com,permanent,2015-01-14,,30,E0007
+E0010,Zara DSouza,Support,Support Specialist,Delhi,2024-10-10,911000,3.1,3.1,3.2,Male,<30,none,false,3.5,,zara.dsouza.e0010@democorp.in,zara.e0010@example.com,permanent,2025-04-08,,30,E0184
+E0011,Aditya Iyer,Finance,Accountant,Delhi,2023-11-20,1308000,4.2,1,3.0,Male,<30,none,false,4.0,,aditya.iyer.e0011@democorp.in,aditya.e0011@example.com,permanent,2024-05-18,,30,E0030
+E0012,Jordan Mehta,Engineering,QA Engineer,Hyderabad,2002-05-25,2120000,2.9,4.5,3.0,Male,50+,none,false,3.8,,jordan.mehta.e0012@democorp.in,jordan.e0012@example.com,permanent,2002-11-21,,30,E0158
+E0013,Dev Joshi,Engineering,Senior Engineer,Mumbai,2026-05-08,2541000,4.3,3.7,3.8,Female,<30,none,false,3.6,,dev.joshi.e0013@democorp.in,dev.e0013@example.com,permanent,2026-11-04,,60,E0005
+E0014,Maria Joshi,Engineering,QA Engineer,Mumbai,2025-02-07,1972000,3.4,3.6,1.4,Female,<30,none,false,3.1,,maria.joshi.e0014@democorp.in,maria.e0014@example.com,fixed_term,,2026-11-21,15,E0084
+E0015,Sam Nair,Sales,Sales Manager,Bengaluru,2025-05-16,1510000,3.1,1.6,3.6,Male,30-39,none,false,3.6,1.31,sam.nair.e0015@democorp.in,sam.e0015@example.com,permanent,2025-11-12,,60,E0003
+E0016,Joseph Pillai,Engineering,Senior Engineer,Delhi,2024-11-23,2329000,3.8,4.4,1.6,Male,40-49,none,false,4.4,,joseph.pillai.e0016@democorp.in,joseph.e0016@example.com,permanent,2025-05-22,,60,E0005
+E0017,Rohan Menon,Engineering,QA Engineer,Hyderabad,2017-08-04,1352000,1.9,4.5,2.7,Male,30-39,none,false,2.8,,rohan.menon.e0017@democorp.in,rohan.e0017@example.com,permanent,2018-01-31,,30,E0224
+E0018,Vivaan Joshi,Support,Support Lead,Bengaluru,2023-04-05,1334000,4.5,3.2,3.3,Male,<30,none,false,3.1,,vivaan.joshi.e0018@democorp.in,vivaan.e0018@example.com,permanent,2023-10-02,,60,E0002
+E0019,Rohan Iyer,Finance,Analyst,Bengaluru,2020-11-21,1218000,3.0,2.6,4.1,Male,<30,other,true,3.6,,rohan.iyer.e0019@democorp.in,rohan.e0019@example.com,permanent,2021-05-20,,30,E0164
+E0020,Ananya Patel,Engineering,Staff Engineer,Mumbai,2017-06-04,2619000,2.9,2.8,2.9,Female,50+,none,false,3.4,,ananya.patel.e0020@democorp.in,ananya.e0020@example.com,permanent,2017-12-01,,60,E0005
+E0021,Aditya Pillai,Engineering,QA Engineer,Bengaluru,2013-12-16,1580000,3.1,5,3.6,Female,30-39,none,false,3.8,,aditya.pillai.e0021@democorp.in,aditya.e0021@example.com,permanent,2014-06-14,,30,E0089
+E0022,Alex Pillai,Marketing,Growth Manager,Bengaluru,1997-04-02,1487000,2.8,3.6,3.4,Female,50+,none,false,3.0,,alex.pillai.e0022@democorp.in,alex.e0022@example.com,permanent,1997-09-29,,60,
+E0023,Kabir Singh,Support,Support Lead,Bengaluru,2024-03-23,1180000,3.3,5,4.4,Female,<30,none,true,3.6,,kabir.singh.e0023@democorp.in,kabir.e0023@example.com,permanent,2024-09-19,,60,E0002
+E0024,Saanvi Chopra,Marketing,Growth Manager,Bengaluru,2019-05-04,1738000,3.8,4.9,4.4,Male,50+,none,false,3.7,,saanvi.chopra.e0024@democorp.in,saanvi.e0024@example.com,permanent,2019-10-31,,60,E0022
+E0025,Rahul Kulkarni,Finance,Finance Manager,Pune,2016-12-12,2269000,3.8,1.5,3.8,Female,30-39,none,false,2.9,,rahul.kulkarni.e0025@democorp.in,rahul.e0025@example.com,permanent,2017-06-10,,60,
+E0026,Dev Gupta,Operations,Ops Manager,Mumbai,2019-08-27,1710000,3.9,3.3,3.5,Male,50+,none,false,4.6,,dev.gupta.e0026@democorp.in,dev.e0026@example.com,permanent,2020-02-23,,60,E0007
+E0027,Vivaan Khan,Operations,Ops Associate,Pune,2025-05-17,707000,3.7,2.3,3.8,Female,<30,none,false,3.8,,vivaan.khan.e0027@democorp.in,vivaan.e0027@example.com,permanent,2025-11-13,,30,E0063
+E0028,Diya DSouza,Sales,Sales Manager,Delhi,2004-11-25,1900000,1.8,3.1,3.8,Male,40-49,none,false,4.2,1.06,diya.dsouza.e0028@democorp.in,diya.e0028@example.com,permanent,2005-05-24,,60,E0003
+E0029,Farhan Rao,Support,Support Lead,Delhi,2021-09-18,1133000,3.7,3.2,3.7,Male,<30,none,false,2.8,,farhan.rao.e0029@democorp.in,farhan.e0029@example.com,permanent,2022-03-17,,60,E0002
+E0030,Kabir Kulkarni,Finance,Finance Manager,Pune,2009-12-11,1775000,3.5,2.3,2.7,Female,40-49,none,false,4.0,,kabir.kulkarni.e0030@democorp.in,kabir.e0030@example.com,permanent,2010-06-09,,60,E0025
+E0031,Saanvi Reddy,Sales,SDR,Mumbai,2017-07-24,1038000,2.9,2.4,2.4,Male,30-39,none,true,3.6,0.71,saanvi.reddy.e0031@democorp.in,saanvi.e0031@example.com,permanent,2018-01-20,,30,E0176
+E0032,Meera Bose,Engineering,QA Engineer,Mumbai,2012-12-24,1828000,2.9,1.6,2.9,Male,40-49,none,false,3.5,,meera.bose.e0032@democorp.in,meera.e0032@example.com,permanent,2013-06-22,,30,E0218
+E0033,Zara Patel,Support,Support Lead,Bengaluru,2019-01-26,1292000,3.4,3.8,5,Male,30-39,none,false,3.1,,zara.patel.e0033@democorp.in,zara.e0033@example.com,permanent,2019-07-25,,60,E0002
+E0034,Dev Reddy,Sales,SDR,Bengaluru,2017-12-22,1372000,4.0,4.6,1.9,Male,30-39,none,false,2.7,0.8,dev.reddy.e0034@democorp.in,dev.e0034@example.com,permanent,2018-06-20,,30,E0072
+E0035,Ishaan Bose,Engineering,QA Engineer,Delhi,2023-10-17,1494000,2.3,3.4,1.2,Male,<30,none,false,2.7,,ishaan.bose.e0035@democorp.in,ishaan.e0035@example.com,permanent,2024-04-14,,30,E0232
+E0036,Rohan Khan,Marketing,Growth Manager,Mumbai,2014-04-19,1632000,2.2,3.6,3.0,Male,30-39,none,false,3.0,,rohan.khan.e0036@democorp.in,rohan.e0036@example.com,permanent,2014-10-16,,60,E0022
+E0037,Ananya Rao,Engineering,QA Engineer,Hyderabad,2023-05-20,2314000,3.7,3.4,2.5,Female,<30,none,false,3.0,,ananya.rao.e0037@democorp.in,ananya.e0037@example.com,fixed_term,,2026-12-12,15,E0057
+E0038,Zara Joshi,Support,Support Lead,Bengaluru,2021-11-16,1476000,2.1,4.2,2.4,Female,<30,none,true,4.6,,zara.joshi.e0038@democorp.in,zara.e0038@example.com,permanent,2022-05-15,,60,E0002
+E0039,Saanvi Pillai,Sales,Sales Manager,Pune,2005-03-15,2361000,4.0,2.6,3.4,Female,40-49,none,false,3.2,1.01,saanvi.pillai.e0039@democorp.in,saanvi.e0039@example.com,permanent,2005-09-11,,60,E0003
+E0040,Neha Pillai,Sales,Account Executive,Hyderabad,2005-12-18,919000,3.4,2.1,2.3,Female,40-49,none,false,2.9,0.97,neha.pillai.e0040@democorp.in,neha.e0040@example.com,permanent,2006-06-16,,30,E0003
+E0041,Meera Rao,Operations,Ops Associate,Hyderabad,2022-05-03,762000,3.8,2.7,3.0,Female,<30,none,false,4.2,,meera.rao.e0041@democorp.in,meera.e0041@example.com,permanent,2022-10-30,,30,E0048
+E0042,Sam Verma,HR,Recruiter,Mumbai,2025-10-25,902000,3.6,3.3,3.2,Female,<30,none,false,2.6,,sam.verma.e0042@democorp.in,sam.e0042@example.com,permanent,2026-04-23,,30,
+E0043,Rohan Shetty,Support,Support Specialist,Mumbai,2020-11-02,780000,3.3,2.8,3.4,Female,30-39,none,false,2.9,,rohan.shetty.e0043@democorp.in,rohan.e0043@example.com,permanent,2021-05-01,,30,E0206
+E0044,Jordan Patel,Support,Support Lead,Pune,2022-02-20,908000,3.2,3.9,2.6,Female,30-39,other,false,5,,jordan.patel.e0044@democorp.in,jordan.e0044@example.com,permanent,2022-08-19,,60,E0002
+E0045,Sam Rao,Finance,Accountant,Hyderabad,2018-04-11,833000,2.5,3.7,4.2,Male,30-39,other,false,3.9,,sam.rao.e0045@democorp.in,sam.e0045@example.com,permanent,2018-10-08,,30,E0164
+E0046,Anita Pillai,Sales,SDR,Hyderabad,2020-07-12,1458000,3.0,1.9,3.6,Female,30-39,none,false,3.9,1.16,anita.pillai.e0046@democorp.in,anita.e0046@example.com,permanent,2021-01-08,,30,E0156
+E0047,Meera Joshi,Finance,Analyst,Pune,2021-07-13,1228000,3.2,3.3,3.3,Male,<30,none,false,3.9,,meera.joshi.e0047@democorp.in,meera.e0047@example.com,contract,,2026-10-31,15,E0030
+E0048,Aditya Patel,Operations,Ops Manager,Hyderabad,2014-12-31,1513000,3.8,2.6,3.4,Male,30-39,none,false,4.1,,aditya.patel.e0048@democorp.in,aditya.e0048@example.com,permanent,2015-06-29,,60,E0007
+E0049,Dev Das,Sales,Account Executive,Pune,2024-02-07,1378000,2.6,4.0,1.7,Female,<30,none,false,4.4,1.16,dev.das.e0049@democorp.in,dev.e0049@example.com,fixed_term,,2026-11-26,15,E0216
+E0050,Noor Pillai,Engineering,Staff Engineer,Mumbai,2024-06-05,3803000,3.9,3.7,5.0,Female,<30,none,false,3.7,,noor.pillai.e0050@democorp.in,noor.e0050@example.com,permanent,2024-12-02,,60,E0005
+E0051,Rahul Patel,Marketing,Growth Manager,Mumbai,2025-06-17,1546000,2.9,4.5,3.2,Male,<30,none,false,2.1,,rahul.patel.e0051@democorp.in,rahul.e0051@example.com,intern,,,60,E0022
+E0052,Priya Khan,Engineering,QA Engineer,Mumbai,2026-06-13,1826000,5,3.9,2.9,Male,<30,none,false,2.8,,priya.khan.e0052@democorp.in,priya.e0052@example.com,permanent,2026-12-10,,30,E0116
+E0053,Farhan Joshi,Engineering,QA Engineer,Delhi,2025-12-26,2375000,3.8,3.5,3.1,Male,<30,none,false,3.0,,farhan.joshi.e0053@democorp.in,farhan.e0053@example.com,permanent,2026-06-24,,30,E0218
+E0054,Kavya Das,Sales,Sales Manager,Bengaluru,2013-04-01,2095000,2.2,2.1,2.7,Male,50+,none,false,4.4,1.03,kavya.das.e0054@democorp.in,kavya.e0054@example.com,permanent,2013-09-28,,60,E0003
+E0055,Rohan Sharma,Engineering,Software Engineer,Bengaluru,2024-08-21,1791000,3.0,2.3,3.2,Male,<30,none,false,2.7,,rohan.sharma.e0055@democorp.in,rohan.e0055@example.com,permanent,2025-02-17,,30,E0135
+E0056,Farhan Mehta,Marketing,Content Lead,Delhi,2012-07-26,1608000,4.5,3.3,4.1,Female,40-49,none,false,3.0,,farhan.mehta.e0056@democorp.in,farhan.e0056@example.com,permanent,2013-01-22,,60,E0022
+E0057,Meera Nair,Engineering,Staff Engineer,Pune,2013-10-27,2970000,3.0,4.1,2.5,Female,30-39,none,true,4.3,,meera.nair.e0057@democorp.in,meera.e0057@example.com,permanent,2014-04-25,,60,E0005
+E0058,Alex Joshi,Sales,Sales Manager,Bengaluru,2026-01-03,2116000,3.3,4.5,3.6,Female,30-39,none,false,2.0,0.93,alex.joshi.e0058@democorp.in,alex.e0058@example.com,permanent,2026-07-02,,60,E0003
+E0059,Rohan Joshi,Marketing,Content Lead,Hyderabad,2016-09-01,1618000,4.1,1.0,3.1,Male,30-39,none,false,3.3,,rohan.joshi.e0059@democorp.in,rohan.e0059@example.com,contract,,2026-12-30,60,E0022
+E0060,Saanvi Verma,Engineering,QA Engineer,Pune,2022-02-04,1841000,3.9,3.2,3.4,Male,<30,none,false,3.2,,saanvi.verma.e0060@democorp.in,saanvi.e0060@example.com,permanent,2022-08-03,,30,E0091
+E0061,Vivaan Mehta,Finance,Analyst,Hyderabad,2014-06-02,1167000,2.6,2.5,3.0,Male,30-39,none,false,3.1,,vivaan.mehta.e0061@democorp.in,vivaan.e0061@example.com,permanent,2014-11-29,,30,E0068
+E0062,Neha Patel,Sales,SDR,Pune,2025-12-09,1411000,2.8,2.1,2.6,Female,30-39,none,false,2.4,1.34,neha.patel.e0062@democorp.in,neha.e0062@example.com,permanent,2026-06-07,,30,E0248
+E0063,Priya Das,Operations,Ops Manager,Hyderabad,1997-07-13,1351000,3.1,4.9,3.6,Female,50+,none,false,3.7,,priya.das.e0063@democorp.in,priya.e0063@example.com,permanent,1998-01-09,,60,E0007
+E0064,Joseph Chopra,Sales,Account Executive,Delhi,2020-05-22,1145000,4.3,3.2,3.1,Male,40-49,none,false,2.9,0.86,joseph.chopra.e0064@democorp.in,joseph.e0064@example.com,permanent,2020-11-18,,30,E0209
+E0065,Diya Rao,Support,Support Lead,Pune,2016-07-27,1211000,2.5,2.9,5,Female,40-49,none,false,3.3,,diya.rao.e0065@democorp.in,diya.e0065@example.com,permanent,2017-01-23,,60,E0002
+E0066,Farhan Menon,Finance,Accountant,Mumbai,2021-04-13,1080000,1.7,3.0,3.0,Male,<30,none,false,3.3,,farhan.menon.e0066@democorp.in,farhan.e0066@example.com,permanent,2021-10-10,,30,E0164
+E0067,Arjun Chopra,Operations,Ops Manager,Pune,2021-06-18,1629000,3.6,3.1,2.9,Male,<30,maternity,false,3.0,,arjun.chopra.e0067@democorp.in,arjun.e0067@example.com,permanent,2021-12-15,,60,E0007
+E0068,Maria Khan,Finance,Finance Manager,Bengaluru,2019-06-26,2241000,4.3,2.7,3.2,Male,30-39,none,false,3.5,,maria.khan.e0068@democorp.in,maria.e0068@example.com,intern,,,60,E0025
+E0069,Jordan Nair,Engineering,Software Engineer,Bengaluru,2024-05-18,1829000,2.7,1.4,2.9,Female,30-39,none,false,3.6,,jordan.nair.e0069@democorp.in,jordan.e0069@example.com,permanent,2024-11-14,,30,E0245
+E0070,Aditya Shetty,Engineering,QA Engineer,Delhi,2022-07-19,2291000,3.5,2.8,2.0,Male,30-39,none,false,3.6,,aditya.shetty.e0070@democorp.in,aditya.e0070@example.com,permanent,2023-01-15,,30,E0123
+E0071,Meera Das,Support,Support Lead,Pune,2026-06-25,1295000,3.8,4.0,4.4,Male,<30,none,false,3.4,,meera.das.e0071@democorp.in,meera.e0071@example.com,permanent,2026-12-22,,60,E0002
+E0072,Ishaan Patel,Sales,Sales Manager,Pune,2022-04-10,1879000,3.2,1,2.3,Female,<30,none,false,3.0,0.75,ishaan.patel.e0072@democorp.in,ishaan.e0072@example.com,permanent,2022-10-07,,60,E0003
+E0073,Noor Khan,Support,Support Lead,Mumbai,2026-01-14,1400000,4.4,2.3,2.9,Male,<30,none,false,2.3,,noor.khan.e0073@democorp.in,noor.e0073@example.com,intern,,,60,E0002
+E0074,Meera Verma,Support,Support Specialist,Mumbai,2025-09-14,768000,2.8,3.8,3.4,Male,30-39,none,false,4.3,,meera.verma.e0074@democorp.in,meera.e0074@example.com,permanent,2026-03-13,,30,E0018
+E0075,Nikhil Khan,Engineering,Staff Engineer,Bengaluru,2020-06-22,3832000,2.8,4.9,3.3,Male,30-39,none,false,4.1,,nikhil.khan.e0075@democorp.in,nikhil.e0075@example.com,permanent,2020-12-19,,60,E0005
+E0076,Farhan Menon,Support,Support Lead,Delhi,2001-08-02,849000,3.4,3.8,4.2,Male,50+,none,false,3.8,,farhan.menon.e0076@democorp.in,farhan.e0076@example.com,contract,,2027-04-04,60,E0002
+E0077,Priya Sharma,Sales,SDR,Delhi,2021-09-22,1346000,4.0,2.9,3.1,Male,50+,none,false,2.0,1.21,priya.sharma.e0077@democorp.in,priya.e0077@example.com,intern,,,15,E0132
+E0078,Rahul Khan,Engineering,QA Engineer,Mumbai,2026-01-29,1475000,3.6,3.6,2.7,Male,<30,none,false,3.0,,rahul.khan.e0078@democorp.in,rahul.e0078@example.com,permanent,2026-07-28,,30,E0145
+E0079,Sam Nair,Marketing,Growth Manager,Pune,2023-02-14,2000000,1.9,1.8,4.4,Male,30-39,none,false,3.8,,sam.nair.e0079@democorp.in,sam.e0079@example.com,permanent,2023-08-13,,60,E0022
+E0080,Sam Kulkarni,Finance,Analyst,Pune,2010-02-09,865000,3.5,3.4,3.4,Male,50+,none,false,3.0,,sam.kulkarni.e0080@democorp.in,sam.e0080@example.com,intern,,,15,E0164
+E0081,Arjun Joshi,Support,Support Specialist,Delhi,2022-11-05,611000,3.8,2.2,3.4,Female,<30,none,false,2.8,,arjun.joshi.e0081@democorp.in,arjun.e0081@example.com,permanent,2023-05-04,,30,E0038
+E0082,Saanvi Singh,Operations,Ops Associate,Bengaluru,2024-12-18,983000,4.9,3.1,2.8,Female,<30,none,false,3.7,,saanvi.singh.e0082@democorp.in,saanvi.e0082@example.com,permanent,2025-06-16,,30,E0063
+E0083,Noor Chopra,Engineering,Staff Engineer,Pune,2023-08-12,3069000,3.3,2.2,3.2,Male,<30,medical,false,4.7,,noor.chopra.e0083@democorp.in,noor.e0083@example.com,permanent,2024-02-08,,60,E0005
+E0084,Priya Menon,Engineering,Staff Engineer,Bengaluru,2025-11-20,2897000,3.3,1.2,3.7,Female,30-39,other,false,2.2,,priya.menon.e0084@democorp.in,priya.e0084@example.com,permanent,2026-05-19,,60,E0005
+E0085,Neha DSouza,Support,Support Specialist,Bengaluru,2022-12-10,649000,2.5,3.2,3.8,Male,<30,none,false,3.7,,neha.dsouza.e0085@democorp.in,neha.e0085@example.com,permanent,2023-06-08,,30,E0065
+E0086,Meera Menon,Engineering,QA Engineer,Bengaluru,2017-04-22,1799000,2.4,2.9,3.7,Female,40-49,none,false,3.8,,meera.menon.e0086@democorp.in,meera.e0086@example.com,permanent,2017-10-19,,30,E0185
+E0087,Ishaan Kulkarni,Marketing,Content Lead,Delhi,2025-08-18,1979000,2.3,2.8,2.4,Female,<30,none,false,3.5,,ishaan.kulkarni.e0087@democorp.in,ishaan.e0087@example.com,permanent,2026-02-14,,60,E0022
+E0088,Rahul Shetty,Operations,Ops Manager,Bengaluru,2010-06-01,1200000,2.8,2.7,3.3,Male,40-49,medical,false,3.9,,rahul.shetty.e0088@democorp.in,rahul.e0088@example.com,permanent,2010-11-28,,60,E0007
+E0089,Farhan Chopra,Engineering,Staff Engineer,Delhi,2023-06-18,3620000,4.8,2.9,3.1,Male,<30,none,false,2.5,,farhan.chopra.e0089@democorp.in,farhan.e0089@example.com,permanent,2023-12-15,,60,E0005
+E0090,Diya Sharma,Marketing,Marketing Associate,Mumbai,2023-02-14,859000,2.4,2.4,2.6,Female,<30,none,false,3.5,,diya.sharma.e0090@democorp.in,diya.e0090@example.com,permanent,2023-08-13,,30,E0097
+E0091,Diya Das,Engineering,Senior Engineer,Bengaluru,2016-05-30,3407000,3.5,2.1,4.0,Male,30-39,none,false,3.4,,diya.das.e0091@democorp.in,diya.e0091@example.com,permanent,2016-11-26,,60,E0005
+E0092,Kavya Singh,Engineering,QA Engineer,Delhi,2015-09-11,1583000,3.0,3.9,3.6,Female,30-39,none,false,3.5,,kavya.singh.e0092@democorp.in,kavya.e0092@example.com,permanent,2016-03-09,,30,E0113
+E0093,Neha Verma,Sales,SDR,Mumbai,2021-08-22,906000,3.1,3.8,3.1,Female,30-39,none,false,2.8,1.0,neha.verma.e0093@democorp.in,neha.e0093@example.com,permanent,2022-02-18,,30,E0176
+E0094,Imran Kulkarni,Sales,Account Executive,Bengaluru,2021-06-04,952000,2.6,2.3,3.4,Female,30-39,none,false,3.7,1.31,imran.kulkarni.e0094@democorp.in,imran.e0094@example.com,permanent,2021-12-01,,30,E0132
+E0095,Isha Sharma,Sales,Sales Manager,Hyderabad,2017-03-21,2553000,4.2,5,4.6,Female,40-49,none,false,3.1,1.04,isha.sharma.e0095@democorp.in,isha.e0095@example.com,permanent,2017-09-17,,60,E0003
+E0096,Noor Rao,Engineering,QA Engineer,Mumbai,2017-09-16,1589000,1.7,4.3,3.6,Male,30-39,none,false,2.6,,noor.rao.e0096@democorp.in,noor.e0096@example.com,permanent,2018-03-15,,30,E0145
+E0097,Arjun Patel,Marketing,Content Lead,Mumbai,2008-03-21,1299000,3.3,3.8,3.7,Female,40-49,none,false,3.3,,arjun.patel.e0097@democorp.in,arjun.e0097@example.com,permanent,2008-09-17,,60,E0022
+E0098,Maria Joshi,Sales,SDR,Delhi,2016-07-08,1363000,2.1,2.1,5,Female,40-49,none,false,3.2,1.27,maria.joshi.e0098@democorp.in,maria.e0098@example.com,permanent,2017-01-04,,30,E0072
+E0099,Diya DSouza,Sales,SDR,Pune,2020-06-04,953000,3.1,3.3,3.2,Male,30-39,none,false,3.7,1.19,diya.dsouza.e0099@democorp.in,diya.e0099@example.com,permanent,2020-12-01,,30,E0039
+E0100,Noor Verma,Support,Support Lead,Delhi,2014-02-26,1142000,3.0,2.7,3.0,Male,30-39,none,false,2.0,,noor.verma.e0100@democorp.in,noor.e0100@example.com,permanent,2014-08-25,,60,E0002
+E0101,Jordan Iyer,Engineering,Software Engineer,Hyderabad,2007-10-22,1895000,3.6,3.8,4.1,Male,40-49,none,false,2.8,,jordan.iyer.e0101@democorp.in,jordan.e0101@example.com,permanent,2008-04-19,,30,E0089
+E0102,Vivaan Rao,Operations,Ops Manager,Bengaluru,2018-12-31,1011000,3.2,2.4,3.3,Female,30-39,none,false,3.8,,vivaan.rao.e0102@democorp.in,vivaan.e0102@example.com,permanent,2019-06-29,,60,E0007
+E0103,Anita Kulkarni,HR,HR Generalist,Mumbai,2013-07-08,702000,2.6,2.1,1.2,Female,30-39,none,false,4.2,,anita.kulkarni.e0103@democorp.in,anita.e0103@example.com,permanent,2014-01-04,,30,E0042
+E0104,Alex Chopra,Finance,Analyst,Bengaluru,2014-10-12,1161000,2.2,2.8,3.4,Female,30-39,none,false,4.0,,alex.chopra.e0104@democorp.in,alex.e0104@example.com,permanent,2015-04-10,,30,E0173
+E0105,Joseph Nair,Sales,Account Executive,Delhi,2019-08-21,1266000,2.0,2.8,3.8,Male,50+,other,false,3.6,0.72,joseph.nair.e0105@democorp.in,joseph.e0105@example.com,permanent,2020-02-17,,30,E0039
+E0106,Vivaan Chopra,Sales,Account Executive,Mumbai,2024-09-23,1162000,3.5,4.4,2.8,Male,<30,none,false,3.5,0.68,vivaan.chopra.e0106@democorp.in,vivaan.e0106@example.com,permanent,2025-03-22,,30,E0072
+E0107,Kabir Kulkarni,Engineering,Senior Engineer,Pune,2016-01-25,3332000,2.5,2.8,3.8,Female,30-39,none,false,3.3,,kabir.kulkarni.e0107@democorp.in,kabir.e0107@example.com,permanent,2016-07-23,,60,E0005
+E0108,Joseph Kulkarni,Engineering,Senior Engineer,Bengaluru,2025-06-01,3118000,2.4,2.9,2.5,Female,40-49,none,false,3.6,,joseph.kulkarni.e0108@democorp.in,joseph.e0108@example.com,permanent,2025-11-28,,60,E0005
+E0109,Aditya Patel,Engineering,QA Engineer,Hyderabad,2019-12-23,2232000,4.7,1.8,4.0,Female,50+,none,false,3.8,,aditya.patel.e0109@democorp.in,aditya.e0109@example.com,permanent,2020-06-20,,30,E0127
+E0110,Sam Rao,Sales,Account Executive,Mumbai,2024-05-13,1470000,3.6,5,3.5,Male,30-39,none,false,3.4,0.63,sam.rao.e0110@democorp.in,sam.e0110@example.com,permanent,2024-11-09,,30,E0095
+E0111,Aarav Singh,Marketing,Content Lead,Delhi,2026-06-20,1407000,4.4,4.9,3.2,Female,30-39,none,false,3.3,,aarav.singh.e0111@democorp.in,aarav.e0111@example.com,permanent,2026-12-17,,60,E0022
+E0112,Imran Khan,Engineering,QA Engineer,Bengaluru,2016-05-02,1994000,3.2,2.4,2.1,Male,30-39,other,false,3.5,,imran.khan.e0112@democorp.in,imran.e0112@example.com,permanent,2016-10-29,,30,E0232
+E0113,Alex Iyer,Engineering,Staff Engineer,Delhi,2021-11-30,3065000,2.0,4.9,1,Male,<30,none,false,4.1,,alex.iyer.e0113@democorp.in,alex.e0113@example.com,permanent,2022-05-29,,60,E0005
+E0114,Aarav Kulkarni,Sales,SDR,Pune,2018-03-19,1468000,3.2,3.3,4.3,Female,30-39,none,false,2.7,0.67,aarav.kulkarni.e0114@democorp.in,aarav.e0114@example.com,permanent,2018-09-15,,30,E0156
+E0115,Rohan Bose,Marketing,Marketing Associate,Mumbai,2022-10-16,1338000,2.8,3.3,4.4,Male,<30,none,false,3.4,,rohan.bose.e0115@democorp.in,rohan.e0115@example.com,permanent,2023-04-14,,30,E0220
+E0116,Riya Menon,Engineering,Senior Engineer,Delhi,2019-07-05,3869000,3.8,3.0,3.6,Male,40-49,none,false,4.0,,riya.menon.e0116@democorp.in,riya.e0116@example.com,permanent,2020-01-01,,60,E0005
+E0117,Farhan Kulkarni,Operations,Ops Associate,Hyderabad,2019-02-21,810000,2.6,3.8,2.7,Male,40-49,none,false,3.2,,farhan.kulkarni.e0117@democorp.in,farhan.e0117@example.com,permanent,2019-08-20,,30,E0007
+E0118,Kavya Shetty,Finance,Accountant,Mumbai,2010-04-12,1482000,3.7,2.4,2.8,Female,40-49,none,false,3.7,,kavya.shetty.e0118@democorp.in,kavya.e0118@example.com,permanent,2010-10-09,,30,E0068
+E0119,Vivaan Kulkarni,Engineering,QA Engineer,Bengaluru,2021-08-10,2014000,2.3,3.7,4.1,Female,<30,none,false,4.7,,vivaan.kulkarni.e0119@democorp.in,vivaan.e0119@example.com,permanent,2022-02-06,,30,E0108
+E0120,Aditya Patel,Support,Support Specialist,Pune,2021-09-03,852000,3.8,1.8,4.7,Female,<30,medical,false,1.6,,aditya.patel.e0120@democorp.in,aditya.e0120@example.com,fixed_term,,2027-07-09,15,E0071
+E0121,Riya Kulkarni,Sales,Sales Manager,Bengaluru,2024-11-11,1899000,2.9,2.6,4.2,Male,30-39,none,false,2.6,0.62,riya.kulkarni.e0121@democorp.in,riya.e0121@example.com,permanent,2025-05-10,,60,E0003
+E0122,Rahul Khan,Engineering,Staff Engineer,Mumbai,2021-10-10,2506000,3.4,3.8,2.8,Male,40-49,none,false,3.6,,rahul.khan.e0122@democorp.in,rahul.e0122@example.com,permanent,2022-04-08,,60,E0005
+E0123,Rahul Das,Engineering,Staff Engineer,Mumbai,2025-02-17,3631000,2.9,1.2,3.9,Female,30-39,none,false,3.9,,rahul.das.e0123@democorp.in,rahul.e0123@example.com,permanent,2025-08-16,,60,E0005
+E0124,Saanvi Reddy,Engineering,QA Engineer,Bengaluru,2022-06-13,2011000,2.4,4.0,3.4,Male,<30,none,false,3.8,,saanvi.reddy.e0124@democorp.in,saanvi.e0124@example.com,permanent,2022-12-10,,30,E0193
+E0125,Ananya Iyer,Sales,Sales Manager,Delhi,2024-12-06,1958000,3.0,2.5,3.2,Male,40-49,none,false,3.3,0.68,ananya.iyer.e0125@democorp.in,ananya.e0125@example.com,permanent,2025-06-04,,60,E0003
+E0126,Rohan Gupta,Operations,Ops Associate,Mumbai,2014-12-19,755000,2.9,2.0,4.8,Male,40-49,none,false,4.7,,rohan.gupta.e0126@democorp.in,rohan.e0126@example.com,permanent,2015-06-17,,30,E0067
+E0127,Aditya DSouza,Engineering,Staff Engineer,Mumbai,2023-03-11,3268000,2.4,2.6,2.8,Male,<30,none,false,5,,aditya.dsouza.e0127@democorp.in,aditya.e0127@example.com,permanent,2023-09-07,,60,E0005
+E0128,Zara Joshi,Support,Support Specialist,Bengaluru,2023-08-14,700000,2.2,1.9,3.0,Female,<30,none,false,3.6,,zara.joshi.e0128@democorp.in,zara.e0128@example.com,permanent,2024-02-10,,30,E0100
+E0129,Vivaan Gupta,Sales,SDR,Delhi,2016-05-31,1217000,2.8,3.3,4.1,Female,30-39,other,false,3.0,0.98,vivaan.gupta.e0129@democorp.in,vivaan.e0129@example.com,permanent,2016-11-27,,30,E0028
+E0130,Ishaan Rao,Engineering,QA Engineer,Bengaluru,2022-06-07,1611000,4.5,3.1,3.7,Female,<30,none,false,3.3,,ishaan.rao.e0130@democorp.in,ishaan.e0130@example.com,fixed_term,,2027-02-12,15,E0083
+E0131,Anita Joshi,Sales,SDR,Delhi,2023-01-02,1419000,3.5,3.7,1.2,Male,30-39,none,false,4.2,1.33,anita.joshi.e0131@democorp.in,anita.e0131@example.com,permanent,2023-07-01,,30,E0125
+E0132,Vivaan Verma,Sales,Sales Manager,Delhi,2016-12-08,1764000,3.6,4.2,2.7,Male,50+,none,false,3.5,1.24,vivaan.verma.e0132@democorp.in,vivaan.e0132@example.com,permanent,2017-06-06,,60,E0003
+E0133,Zara Menon,Finance,Accountant,Mumbai,2023-08-15,1067000,2.5,3.9,2.5,Female,<30,none,false,3.2,,zara.menon.e0133@democorp.in,zara.e0133@example.com,permanent,2024-02-11,,30,E0025
+E0134,Farhan Rao,Support,Support Specialist,Pune,2025-07-02,759000,3.8,3.2,2.4,Male,<30,none,false,2.9,,farhan.rao.e0134@democorp.in,farhan.e0134@example.com,permanent,2025-12-29,,30,E0206
+E0135,Meera Reddy,Engineering,Senior Engineer,Delhi,2008-07-21,3208000,2.6,3.1,3.2,Male,40-49,none,false,3.1,,meera.reddy.e0135@democorp.in,meera.e0135@example.com,permanent,2009-01-17,,60,E0005
+E0136,Aarav Kulkarni,Support,Support Lead,Bengaluru,2019-11-12,1063000,4.0,4.4,3.4,Male,40-49,none,false,3.7,,aarav.kulkarni.e0136@democorp.in,aarav.e0136@example.com,permanent,2020-05-10,,60,E0002
+E0137,Farhan Joshi,Marketing,Marketing Associate,Mumbai,2020-08-18,1097000,3.1,2.0,1.6,Male,30-39,none,false,3.5,,farhan.joshi.e0137@democorp.in,farhan.e0137@example.com,permanent,2021-02-14,,30,E0079
+E0138,Meera Rao,Finance,Analyst,Hyderabad,2025-05-09,1101000,3.1,2.9,2.1,Male,<30,none,false,2.5,,meera.rao.e0138@democorp.in,meera.e0138@example.com,contract,,2026-12-17,15,E0030
+E0139,Ananya Khan,Operations,Ops Associate,Delhi,2014-12-14,852000,3.1,3.7,2.5,Male,40-49,none,false,3.5,,ananya.khan.e0139@democorp.in,ananya.e0139@example.com,permanent,2015-06-12,,30,E0088
+E0140,Nikhil Pillai,Support,Support Lead,Pune,2022-04-10,1041000,3.9,3.4,2.2,Male,30-39,none,false,2.8,,nikhil.pillai.e0140@democorp.in,nikhil.e0140@example.com,fixed_term,,2027-04-18,60,E0002
+E0141,Tara Pillai,Sales,SDR,Mumbai,2014-04-27,1173000,4.8,3.0,2.8,Male,50+,none,false,3.6,1.34,tara.pillai.e0141@democorp.in,tara.e0141@example.com,permanent,2014-10-24,,30,E0216
+E0142,Saanvi Singh,Sales,Sales Manager,Pune,2021-10-15,2515000,3.9,4.0,4.5,Male,40-49,none,false,4.7,1.23,saanvi.singh.e0142@democorp.in,saanvi.e0142@example.com,permanent,2022-04-13,,60,E0003
+E0143,Ananya Khan,Support,Support Specialist,Delhi,2025-05-29,567000,3.3,3.1,3.5,Male,30-39,none,false,3.8,,ananya.khan.e0143@democorp.in,ananya.e0143@example.com,permanent,2025-11-25,,30,E0198
+E0144,Sam Verma,Sales,SDR,Bengaluru,2023-05-14,1554000,3.2,2.8,2.5,Male,<30,none,false,2.2,1.14,sam.verma.e0144@democorp.in,sam.e0144@example.com,permanent,2023-11-10,,30,E0132
+E0145,Vivaan Menon,Engineering,Senior Engineer,Pune,2022-08-23,3522000,3.8,4.6,3.7,Male,30-39,none,false,3.5,,vivaan.menon.e0145@democorp.in,vivaan.e0145@example.com,permanent,2023-02-19,,60,E0005
+E0146,Maria Reddy,HR,Recruiter,Hyderabad,2014-05-27,945000,3.2,3.0,4.6,Female,30-39,none,false,4.2,,maria.reddy.e0146@democorp.in,maria.e0146@example.com,permanent,2014-11-23,,30,E0042
+E0147,Tara Mehta,Support,Support Specialist,Hyderabad,2022-10-22,599000,4.4,1.7,2.6,Male,<30,none,false,3.3,,tara.mehta.e0147@democorp.in,tara.e0147@example.com,fixed_term,,2027-04-08,15,E0198
+E0148,Dev Bose,Engineering,Staff Engineer,Pune,2026-04-13,3462000,3.3,2.7,5.0,Female,50+,none,false,3.5,,dev.bose.e0148@democorp.in,dev.e0148@example.com,contract,,2026-11-10,60,E0005
+E0149,Isha DSouza,Marketing,Marketing Associate,Bengaluru,2016-02-24,1304000,4.3,2.2,1.6,Female,30-39,none,false,4.0,,isha.dsouza.e0149@democorp.in,isha.e0149@example.com,permanent,2016-08-22,,30,E0022
+E0150,Saanvi Khan,HR,Recruiter,Mumbai,2022-05-25,903000,1.8,3.3,1.6,Male,<30,none,false,3.5,,saanvi.khan.e0150@democorp.in,saanvi.e0150@example.com,permanent,2022-11-21,,30,E0042
+E0151,Ishaan Verma,Sales,SDR,Delhi,2024-11-01,1497000,3.7,2.9,3.5,Male,40-49,none,false,3.3,1.32,ishaan.verma.e0151@democorp.in,ishaan.e0151@example.com,permanent,2025-04-30,,30,E0121
+E0152,Vivaan Bose,Engineering,QA Engineer,Hyderabad,2020-11-11,1492000,3.9,2.9,3.1,Male,<30,none,false,4.5,,vivaan.bose.e0152@democorp.in,vivaan.e0152@example.com,permanent,2021-05-10,,30,E0245
+E0153,Tara Iyer,Marketing,Content Lead,Bengaluru,2026-07-21,1243000,3.1,3.5,3.9,Male,<30,none,true,1.8,,tara.iyer.e0153@democorp.in,tara.e0153@example.com,permanent,2027-01-17,,60,E0022
+E0154,Kavya Kulkarni,Sales,Account Executive,Hyderabad,2010-03-25,1615000,3.2,1.3,3.6,Female,40-49,none,false,3.9,1.34,kavya.kulkarni.e0154@democorp.in,kavya.e0154@example.com,permanent,2010-09-21,,30,E0003
+E0155,Saanvi Menon,HR,HR Generalist,Bengaluru,2018-10-15,800000,3.2,2.6,3.1,Male,30-39,none,false,4.0,,saanvi.menon.e0155@democorp.in,saanvi.e0155@example.com,permanent,2019-04-13,,30,E0042
+E0156,Arjun Singh,Sales,Sales Manager,Bengaluru,2021-01-13,1657000,1.1,4.5,3.9,Male,40-49,none,false,3.2,0.73,arjun.singh.e0156@democorp.in,arjun.e0156@example.com,permanent,2021-07-12,,60,E0003
+E0157,Meera Shetty,Operations,Ops Associate,Bengaluru,2025-06-15,923000,3.7,2.7,2.5,Female,<30,none,false,3.5,,meera.shetty.e0157@democorp.in,meera.e0157@example.com,permanent,2025-12-12,,30,E0088
+E0158,Zara Rao,Engineering,Staff Engineer,Mumbai,2023-01-04,2569000,3.6,4.3,3.5,Female,<30,none,false,3.9,,zara.rao.e0158@democorp.in,zara.e0158@example.com,fixed_term,,2027-01-05,60,E0005
+E0159,Vivaan Kulkarni,Support,Support Specialist,Pune,2017-01-02,920000,2.6,1.8,2.7,Female,30-39,none,false,3.7,,vivaan.kulkarni.e0159@democorp.in,vivaan.e0159@example.com,permanent,2017-07-01,,30,E0240
+E0160,Arjun Bose,Support,Support Specialist,Delhi,2019-11-04,909000,2.5,2.4,3.5,Male,40-49,none,false,4.3,,arjun.bose.e0160@democorp.in,arjun.e0160@example.com,fixed_term,,2027-04-29,15,E0038
+E0161,Aditya Pillai,Engineering,Staff Engineer,Delhi,2016-07-01,3412000,3.5,3.9,2.1,Female,30-39,none,false,4.5,,aditya.pillai.e0161@democorp.in,aditya.e0161@example.com,permanent,2016-12-28,,60,E0005
+E0162,Ananya Das,Marketing,Growth Manager,Bengaluru,2024-03-30,2119000,2.3,3.3,4.2,Male,<30,none,false,2.6,,ananya.das.e0162@democorp.in,ananya.e0162@example.com,permanent,2024-09-26,,60,E0022
+E0163,Dev Pillai,Marketing,Marketing Associate,Pune,2021-12-31,943000,3.1,4.2,2.7,Male,30-39,none,false,2.4,,dev.pillai.e0163@democorp.in,dev.e0163@example.com,permanent,2022-06-29,,30,E0079
+E0164,Diya Rao,Finance,Finance Manager,Delhi,2019-05-28,1757000,4.0,4.2,2.5,Female,30-39,none,false,3.5,,diya.rao.e0164@democorp.in,diya.e0164@example.com,permanent,2019-11-24,,60,E0025
+E0165,Isha Joshi,Support,Support Lead,Pune,2024-05-21,1400000,2.1,3.2,3.5,Male,<30,none,false,3.5,,isha.joshi.e0165@democorp.in,isha.e0165@example.com,contract,,2026-11-15,60,E0002
+E0166,Noor Pillai,Sales,Account Executive,Delhi,2018-09-08,1252000,4.8,5,2.9,Male,40-49,none,false,3.1,1.08,noor.pillai.e0166@democorp.in,noor.e0166@example.com,permanent,2019-03-07,,30,E0142
+E0167,Sam Patel,Engineering,Software Engineer,Hyderabad,2017-05-03,1423000,3.6,3.7,2.1,Male,40-49,none,false,4.4,,sam.patel.e0167@democorp.in,sam.e0167@example.com,permanent,2017-10-30,,30,E0005
+E0168,Riya Singh,Sales,Sales Manager,Pune,2021-12-22,2057000,4.1,4.8,3.8,Male,<30,maternity,false,2.7,1.15,riya.singh.e0168@democorp.in,riya.e0168@example.com,permanent,2022-06-20,,60,E0003
+E0169,Kabir Shetty,Operations,Ops Associate,Hyderabad,2003-01-24,853000,3.6,2.5,5,Male,50+,none,false,3.0,,kabir.shetty.e0169@democorp.in,kabir.e0169@example.com,permanent,2003-07-23,,30,E0063
+E0170,Joseph Verma,Marketing,Content Lead,Hyderabad,2024-10-11,1290000,4.3,2.5,4.3,Male,30-39,none,false,3.5,,joseph.verma.e0170@democorp.in,joseph.e0170@example.com,permanent,2025-04-09,,60,E0022
+E0171,Joseph Nair,Engineering,QA Engineer,Delhi,2019-02-27,2316000,3.8,2.9,2.7,Female,30-39,none,false,3.6,,joseph.nair.e0171@democorp.in,joseph.e0171@example.com,permanent,2019-08-26,,30,E0185
+E0172,Kabir Joshi,Operations,Ops Associate,Hyderabad,2023-01-22,669000,3.3,3.9,2.7,Male,<30,maternity,false,2.8,,kabir.joshi.e0172@democorp.in,kabir.e0172@example.com,permanent,2023-07-21,,30,E0243
+E0173,Noor Reddy,Finance,Finance Manager,Pune,2019-02-23,2155000,3.2,2.9,4.5,Male,40-49,none,false,4.0,,noor.reddy.e0173@democorp.in,noor.e0173@example.com,permanent,2019-08-22,,60,E0025
+E0174,Nikhil Bose,Marketing,Growth Manager,Pune,2019-04-08,1671000,3.6,2.4,3.3,Female,30-39,maternity,false,1.6,,nikhil.bose.e0174@democorp.in,nikhil.e0174@example.com,intern,,,60,E0022
+E0175,Aditya Singh,Sales,SDR,Hyderabad,2023-10-28,1011000,3.0,2.0,2.8,Female,<30,none,false,2.8,1.31,aditya.singh.e0175@democorp.in,aditya.e0175@example.com,permanent,2024-04-25,,30,E0209
+E0176,Meera Pillai,Sales,Sales Manager,Hyderabad,2025-08-10,2079000,3.6,3.5,3.8,Male,<30,none,false,3.8,1.13,meera.pillai.e0176@democorp.in,meera.e0176@example.com,permanent,2026-02-06,,60,E0003
+E0177,Aditya Pillai,Finance,Accountant,Mumbai,2021-12-12,1422000,4.3,3.0,2.8,Female,<30,none,false,3.6,,aditya.pillai.e0177@democorp.in,aditya.e0177@example.com,permanent,2022-06-10,,30,E0164
+E0178,Farhan Iyer,Engineering,Senior Engineer,Mumbai,2017-02-21,2784000,2.9,3.0,2.6,Male,30-39,none,false,3.7,,farhan.iyer.e0178@democorp.in,farhan.e0178@example.com,permanent,2017-08-20,,60,E0005
+E0179,Isha Rao,Engineering,Software Engineer,Delhi,2011-09-07,1825000,1.9,3.9,3.5,Male,50+,none,false,4.3,,isha.rao.e0179@democorp.in,isha.e0179@example.com,permanent,2012-03-05,,30,E0013
+E0180,Sam Khan,Engineering,QA Engineer,Mumbai,2013-07-06,2395000,3.8,2.9,3.6,Male,50+,none,false,4.6,,sam.khan.e0180@democorp.in,sam.e0180@example.com,permanent,2014-01-02,,30,E0016
+E0181,Zara Pillai,Operations,Ops Associate,Mumbai,2014-05-08,613000,3.0,1.1,2.3,Male,30-39,none,false,3.5,,zara.pillai.e0181@democorp.in,zara.e0181@example.com,permanent,2014-11-04,,30,E0026
+E0182,Dev Singh,Finance,Accountant,Hyderabad,2023-06-19,1260000,3.6,3.3,2.7,Non-binary,30-39,none,false,3.0,,dev.singh.e0182@democorp.in,dev.e0182@example.com,permanent,2023-12-16,,30,E0173
+E0183,Farhan Kulkarni,Sales,SDR,Bengaluru,2007-10-28,1405000,3.7,2.1,3.5,Male,50+,none,false,4.3,1.08,farhan.kulkarni.e0183@democorp.in,farhan.e0183@example.com,permanent,2008-04-25,,30,E0028
+E0184,Kavya Nair,Support,Support Lead,Pune,2011-09-18,847000,3.7,3.5,5,Male,50+,none,false,1.7,,kavya.nair.e0184@democorp.in,kavya.e0184@example.com,permanent,2012-03-16,,60,E0002
+E0185,Arjun Kulkarni,Engineering,Staff Engineer,Bengaluru,2013-05-21,3884000,2.6,3.3,5,Female,30-39,none,false,2.9,,arjun.kulkarni.e0185@democorp.in,arjun.e0185@example.com,permanent,2013-11-17,,60,E0005
+E0186,Meera Bose,Sales,Account Executive,Pune,2018-10-10,1130000,4.6,4.6,3.4,Female,30-39,none,false,4.1,0.65,meera.bose.e0186@democorp.in,meera.e0186@example.com,permanent,2019-04-08,,30,E0015
+E0187,Saanvi Gupta,Engineering,Senior Engineer,Hyderabad,2015-08-24,2732000,2.5,3.6,3.2,Male,50+,none,false,5,,saanvi.gupta.e0187@democorp.in,saanvi.e0187@example.com,permanent,2016-02-20,,60,E0005
+E0188,Jordan Mehta,Marketing,Marketing Associate,Bengaluru,2016-12-14,873000,2.9,1.8,2.2,Male,30-39,none,false,3.6,,jordan.mehta.e0188@democorp.in,jordan.e0188@example.com,permanent,2017-06-12,,30,E0153
+E0189,Sam Rao,Engineering,Software Engineer,Pune,2021-02-05,1995000,2.5,2.4,2.4,Female,<30,none,false,2.9,,sam.rao.e0189@democorp.in,sam.e0189@example.com,permanent,2021-08-04,,30,E0187
+E0190,Dev Das,Finance,Finance Manager,Pune,2023-08-01,1443000,4.0,2.8,2.6,Female,30-39,none,false,2.7,,dev.das.e0190@democorp.in,dev.e0190@example.com,permanent,2024-01-28,,60,E0025
+E0191,Sam Gupta,Sales,Account Executive,Pune,2014-07-14,1300000,2.9,3.2,3.7,Male,30-39,none,false,4.1,1.25,sam.gupta.e0191@democorp.in,sam.e0191@example.com,fixed_term,,2027-03-10,15,E0176
+E0192,Sam Khan,Sales,Account Executive,Hyderabad,2004-12-20,1195000,2.4,1.7,3.9,Male,40-49,none,false,3.1,1.21,sam.khan.e0192@democorp.in,sam.e0192@example.com,fixed_term,,2027-05-07,15,E0132
+E0193,Rahul Gupta,Engineering,Senior Engineer,Hyderabad,2023-07-04,3509000,2.0,2.6,3.2,Female,<30,none,false,3.5,,rahul.gupta.e0193@democorp.in,rahul.e0193@example.com,permanent,2023-12-31,,60,E0005
+E0194,Meera Pillai,Finance,Accountant,Hyderabad,2025-08-27,969000,3.2,4.6,4.0,Male,30-39,none,false,3.9,,meera.pillai.e0194@democorp.in,meera.e0194@example.com,permanent,2026-02-23,,30,E0025
+E0195,Ishaan Patel,HR,Recruiter,Delhi,2025-08-11,657000,3.2,1.8,2.6,Female,<30,none,false,3.3,,ishaan.patel.e0195@democorp.in,ishaan.e0195@example.com,permanent,2026-02-07,,30,E0042
+E0196,Saanvi Gupta,Engineering,Software Engineer,Pune,2014-08-25,1700000,2.9,3.0,3.7,Male,30-39,none,false,3.9,,saanvi.gupta.e0196@democorp.in,saanvi.e0196@example.com,permanent,2015-02-21,,30,E0083
+E0197,Nikhil Reddy,Support,Support Specialist,Pune,2021-12-21,820000,3.6,3.6,3.7,Male,<30,none,false,2.9,,nikhil.reddy.e0197@democorp.in,nikhil.e0197@example.com,fixed_term,,2027-06-14,15,E0136
+E0198,Sam Iyer,Support,Support Lead,Pune,2018-03-04,1111000,2.1,2.6,1.9,Male,30-39,none,false,3.1,,sam.iyer.e0198@democorp.in,sam.e0198@example.com,permanent,2018-08-31,,60,E0002
+E0199,Jordan Kulkarni,Support,Support Specialist,Hyderabad,2016-04-21,882000,3.5,2.3,3.5,Female,40-49,none,false,3.1,,jordan.kulkarni.e0199@democorp.in,jordan.e0199@example.com,permanent,2016-10-18,,30,E0065
+E0200,Maria Verma,Support,Support Specialist,Hyderabad,2015-09-14,544000,2.5,5,3.2,Female,30-39,none,false,3.6,,maria.verma.e0200@democorp.in,maria.e0200@example.com,permanent,2016-03-12,,30,E0023
+E0201,Rahul Gupta,HR,Recruiter,Pune,2025-02-08,956000,3.6,2.9,3.0,Male,<30,none,false,4.0,,rahul.gupta.e0201@democorp.in,rahul.e0201@example.com,permanent,2025-08-07,,30,E0042
+E0202,Sam Iyer,Sales,Sales Manager,Bengaluru,2009-08-25,2251000,4.1,3.3,4.0,Male,40-49,none,false,3.0,0.92,sam.iyer.e0202@democorp.in,sam.e0202@example.com,permanent,2010-02-21,,60,E0003
+E0203,Kavya Reddy,Sales,Account Executive,Bengaluru,2023-11-19,1244000,3.3,3.6,3.7,Female,30-39,none,false,2.1,0.89,kavya.reddy.e0203@democorp.in,kavya.e0203@example.com,permanent,2024-05-17,,30,E0216
+E0204,Tara Sharma,Finance,Analyst,Mumbai,2023-05-20,1228000,3.8,1.9,3.5,Male,30-39,other,false,2.6,,tara.sharma.e0204@democorp.in,tara.e0204@example.com,permanent,2023-11-16,,30,E0068
+E0205,Ishaan Reddy,Sales,SDR,Hyderabad,2021-09-18,1442000,2.6,2.7,2.8,Female,30-39,other,false,4.1,0.98,ishaan.reddy.e0205@democorp.in,ishaan.e0205@example.com,permanent,2022-03-17,,30,E0168
+E0206,Joseph Das,Support,Support Lead,Delhi,2011-02-06,978000,3.7,1.7,3.5,Female,40-49,maternity,false,3.0,,joseph.das.e0206@democorp.in,joseph.e0206@example.com,permanent,2011-08-05,,60,E0002
+E0207,Sam Shetty,Operations,Ops Associate,Pune,2024-01-22,634000,3.4,3.1,3.4,Male,30-39,none,false,3.3,,sam.shetty.e0207@democorp.in,sam.e0207@example.com,permanent,2024-07-20,,30,E0243
+E0208,Zara Iyer,Sales,SDR,Bengaluru,2021-04-21,912000,3.1,3.8,3.1,Male,<30,none,false,3.4,0.9,zara.iyer.e0208@democorp.in,zara.e0208@example.com,fixed_term,,2027-02-15,15,E0121
+E0209,Kavya Menon,Sales,Sales Manager,Pune,2015-05-08,1535000,2.2,2.9,3.9,Male,30-39,none,false,3.4,1.19,kavya.menon.e0209@democorp.in,kavya.e0209@example.com,permanent,2015-11-04,,60,E0003
+E0210,Kavya Patel,Engineering,Staff Engineer,Bengaluru,2025-02-07,2260000,3.5,3.6,3.4,Male,30-39,none,false,3.5,,kavya.patel.e0210@democorp.in,kavya.e0210@example.com,permanent,2025-08-06,,60,E0005
+E0211,Rohan Khan,Support,Support Specialist,Pune,2025-01-17,925000,1.9,3.0,3.2,Male,<30,none,false,3.8,,rohan.khan.e0211@democorp.in,rohan.e0211@example.com,permanent,2025-07-16,,30,E0140
+E0212,Aditya Singh,Operations,Ops Associate,Delhi,2016-12-15,942000,3.7,2.5,2.2,Male,30-39,none,false,4.1,,aditya.singh.e0212@democorp.in,aditya.e0212@example.com,permanent,2017-06-13,,30,E0026
+E0213,Maria Joshi,Finance,Analyst,Bengaluru,2020-11-12,1270000,4.3,4.2,4.7,Female,30-39,none,false,3.3,,maria.joshi.e0213@democorp.in,maria.e0213@example.com,permanent,2021-05-11,,30,E0030
+E0214,Anita Chopra,Sales,Account Executive,Mumbai,2026-03-11,1062000,3.7,2.0,3.7,Female,<30,none,false,2.5,0.81,anita.chopra.e0214@democorp.in,anita.e0214@example.com,contract,,2027-03-21,15,E0202
+E0215,Farhan DSouza,Sales,SDR,Hyderabad,2025-05-28,1607000,3.6,3.1,4.0,Female,30-39,none,false,2.5,1.18,farhan.dsouza.e0215@democorp.in,farhan.e0215@example.com,permanent,2025-11-24,,30,E0003
+E0216,Dev Bose,Sales,Sales Manager,Hyderabad,2023-03-07,1864000,2.3,4.8,3.6,Male,<30,none,false,3.3,0.63,dev.bose.e0216@democorp.in,dev.e0216@example.com,permanent,2023-09-03,,60,E0003
+E0217,Saanvi Kulkarni,Finance,Analyst,Pune,2021-12-27,1245000,3.3,3.1,4.3,Male,<30,maternity,false,2.9,,saanvi.kulkarni.e0217@democorp.in,saanvi.e0217@example.com,permanent,2022-06-25,,30,E0190
+E0218,Arjun Singh,Engineering,Senior Engineer,Mumbai,2025-03-30,2321000,3.3,4.1,2.9,Male,30-39,none,false,3.2,,arjun.singh.e0218@democorp.in,arjun.e0218@example.com,fixed_term,,2027-05-30,60,E0005
+E0219,Imran Menon,HR,HR Generalist,Mumbai,2015-04-02,596000,2.5,2.8,3.1,Female,30-39,none,false,3.2,,imran.menon.e0219@democorp.in,imran.e0219@example.com,permanent,2015-09-29,,30,E0042
+E0220,Aditya Mehta,Marketing,Growth Manager,Delhi,2016-06-07,1331000,3.9,3.5,3.9,Male,30-39,none,false,4.6,,aditya.mehta.e0220@democorp.in,aditya.e0220@example.com,permanent,2016-12-04,,60,E0022
+E0221,Meera Singh,Engineering,Staff Engineer,Pune,2017-04-10,3633000,4.5,4.1,4.2,Female,50+,none,false,2.5,,meera.singh.e0221@democorp.in,meera.e0221@example.com,permanent,2017-10-07,,60,E0005
+E0222,Riya Verma,Engineering,Software Engineer,Pune,2004-11-12,2081000,2.2,3.4,2.5,Male,40-49,none,false,3.4,,riya.verma.e0222@democorp.in,riya.e0222@example.com,permanent,2005-05-11,,30,E0232
+E0223,Arjun Nair,Support,Support Specialist,Mumbai,2025-06-11,530000,4.4,1,3.3,Male,<30,none,false,3.5,,arjun.nair.e0223@democorp.in,arjun.e0223@example.com,permanent,2025-12-08,,30,E0136
+E0224,Aditya Mehta,Engineering,Staff Engineer,Hyderabad,2023-03-23,3720000,4.1,3.3,3.2,Male,50+,maternity,false,1.9,,aditya.mehta.e0224@democorp.in,aditya.e0224@example.com,permanent,2023-09-19,,60,E0005
+E0225,Isha Khan,Engineering,QA Engineer,Mumbai,2021-09-23,1382000,3.1,2.7,3.6,Male,<30,none,false,2.5,,isha.khan.e0225@democorp.in,isha.e0225@example.com,permanent,2022-03-22,,30,E0057
+E0226,Saanvi Khan,Support,Support Specialist,Pune,2015-05-26,551000,3.0,2.5,3.6,Male,30-39,none,false,3.7,,saanvi.khan.e0226@democorp.in,saanvi.e0226@example.com,permanent,2015-11-22,,30,E0033
+E0227,Farhan Khan,Engineering,Software Engineer,Pune,2010-06-24,1722000,2.7,2.9,3.3,Female,50+,none,false,2.6,,farhan.khan.e0227@democorp.in,farhan.e0227@example.com,permanent,2010-12-21,,30,E0091
+E0228,Zara Joshi,Marketing,Marketing Associate,Mumbai,2016-01-03,1350000,3.9,4.3,3.8,Female,40-49,none,false,3.4,,zara.joshi.e0228@democorp.in,zara.e0228@example.com,permanent,2016-07-01,,30,E0079
+E0229,Joseph Menon,Operations,Ops Associate,Mumbai,2005-04-30,770000,4.1,1.7,3.1,Male,40-49,none,false,3.1,,joseph.menon.e0229@democorp.in,joseph.e0229@example.com,permanent,2005-10-27,,30,E0067
+E0230,Kabir Khan,Support,Support Lead,Mumbai,2001-04-21,1204000,4.0,2.8,3.6,Female,50+,none,false,2.7,,kabir.khan.e0230@democorp.in,kabir.e0230@example.com,permanent,2001-10-18,,60,E0002
+E0231,Arjun Rao,Sales,Account Executive,Pune,2012-10-24,1416000,4.6,2.4,3.5,Male,30-39,none,false,2.6,1.3,arjun.rao.e0231@democorp.in,arjun.e0231@example.com,permanent,2013-04-22,,30,E0072
+E0232,Alex Menon,Engineering,Staff Engineer,Pune,2009-10-30,3173000,3.5,3.0,4.1,Female,50+,none,false,3.2,,alex.menon.e0232@democorp.in,alex.e0232@example.com,permanent,2010-04-28,,60,E0005
+E0233,Saanvi Shetty,Finance,Accountant,Mumbai,2022-09-05,1344000,3.5,4.4,1.9,Female,30-39,none,false,3.0,,saanvi.shetty.e0233@democorp.in,saanvi.e0233@example.com,permanent,2023-03-04,,30,E0025
+E0234,Vivaan Gupta,Engineering,QA Engineer,Delhi,2009-04-19,2001000,4.2,3.4,4.1,Male,40-49,none,false,2.0,,vivaan.gupta.e0234@democorp.in,vivaan.e0234@example.com,permanent,2009-10-16,,30,E0050
+E0235,Maria Iyer,Marketing,Marketing Associate,Pune,2019-06-03,1243000,2.7,1.9,2.3,Female,30-39,none,false,3.9,,maria.iyer.e0235@democorp.in,maria.e0235@example.com,permanent,2019-11-30,,30,E0174
+E0236,Noor Chopra,Engineering,Software Engineer,Hyderabad,2025-07-04,2397000,3.5,2.3,3.0,Male,40-49,none,false,3.2,,noor.chopra.e0236@democorp.in,noor.e0236@example.com,permanent,2025-12-31,,30,E0221
+E0237,Aditya Verma,Sales,SDR,Bengaluru,2021-07-12,1112000,2.5,5,2.0,Female,30-39,none,false,1.8,1.22,aditya.verma.e0237@democorp.in,aditya.e0237@example.com,permanent,2022-01-08,,30,E0028
+E0238,Jordan Sharma,Operations,Ops Associate,Mumbai,2012-10-28,807000,4.7,2.4,2.4,Female,30-39,none,false,2.8,,jordan.sharma.e0238@democorp.in,jordan.e0238@example.com,permanent,2013-04-26,,30,E0063
+E0239,Rahul Das,HR,Recruiter,Hyderabad,2014-06-22,669000,4.3,3.6,3.5,Male,30-39,none,false,3.6,,rahul.das.e0239@democorp.in,rahul.e0239@example.com,permanent,2014-12-19,,30,E0042
+E0240,Sam Das,Support,Support Lead,Hyderabad,2026-04-19,1497000,3.9,3.6,3.0,Female,<30,none,false,3.7,,sam.das.e0240@democorp.in,sam.e0240@example.com,permanent,2026-10-16,,60,E0002
+E0241,Maria Menon,Support,Support Specialist,Hyderabad,2017-11-23,680000,2.7,3.4,2.9,Male,30-39,none,false,3.1,,maria.menon.e0241@democorp.in,maria.e0241@example.com,intern,,,15,E0165
+E0242,Kavya Joshi,Marketing,Marketing Associate,Bengaluru,2022-09-24,887000,4.8,4.1,1.6,Female,<30,none,false,3.5,,kavya.joshi.e0242@democorp.in,kavya.e0242@example.com,permanent,2023-03-23,,30,E0097
+E0243,Aditya Menon,Operations,Ops Manager,Delhi,2021-04-20,1653000,3.1,2.2,4.0,Male,30-39,none,false,3.4,,aditya.menon.e0243@democorp.in,aditya.e0243@example.com,permanent,2021-10-17,,60,E0007
+E0244,Farhan Mehta,Marketing,Marketing Associate,Hyderabad,2019-02-02,826000,2.2,4.4,3.6,Female,50+,none,false,3.7,,farhan.mehta.e0244@democorp.in,farhan.e0244@example.com,permanent,2019-08-01,,30,E0111
+E0245,Saanvi Menon,Engineering,Staff Engineer,Bengaluru,2025-01-31,3114000,3.9,2.3,3.9,Male,30-39,other,false,2.8,,saanvi.menon.e0245@democorp.in,saanvi.e0245@example.com,permanent,2025-07-30,,60,E0005
+E0246,Ishaan Nair,Sales,Account Executive,Bengaluru,2013-07-08,1305000,2.2,3.6,1.2,Male,30-39,none,false,2.3,1.27,ishaan.nair.e0246@democorp.in,ishaan.e0246@example.com,permanent,2014-01-04,,30,E0168
+E0247,Nikhil Menon,Engineering,QA Engineer,Bengaluru,2015-12-23,1505000,2.3,2.3,1.5,Male,30-39,medical,false,4.0,,nikhil.menon.e0247@democorp.in,nikhil.e0247@example.com,permanent,2016-06-20,,30,E0193
+E0248,Farhan Das,Sales,Sales Manager,Hyderabad,2026-02-18,1798000,4.3,4.1,2.5,Non-binary,40-49,none,false,4.3,1.08,farhan.das.e0248@democorp.in,farhan.e0248@example.com,permanent,2026-08-17,,60,E0003
+E0249,Kavya Shetty,Engineering,QA Engineer,Hyderabad,2019-05-23,2047000,3.5,3.8,2.9,Male,40-49,none,false,4.3,,kavya.shetty.e0249@democorp.in,kavya.e0249@example.com,permanent,2019-11-19,,30,E0187
+E0250,Zara DSouza,Sales,Account Executive,Bengaluru,2020-11-26,1533000,2.0,4.0,4.6,Female,<30,none,false,4.5,1.32,zara.dsouza.e0250@democorp.in,zara.e0250@example.com,permanent,2021-05-25,,30,E0015

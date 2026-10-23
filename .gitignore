@@ -1,0 +1,13 @@
+apps/api/.venv/
+apps/api/data/*.db
+apps/api/data/.dev_secret_key
+apps/api/data/files/
+apps/api/data/exports/
+__pycache__/
+.pytest_cache/
+apps/web/node_modules/
+apps/web/.next/
+apps/web/test-results/
+apps/web/playwright-report/
+apps/api/data/e2e.db
+apps/web/.next-*/

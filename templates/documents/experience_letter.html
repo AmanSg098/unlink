@@ -1,0 +1,9 @@
+{% extends "_base.html" %}
+{% block content %}
+<h1>To whom it may concern</h1>
+<div class="body">
+<p>This is to certify that {{ employee_name }} (employee code {{ employee_code }}) was employed with {{ company_name }} from {{ hire_date }} to {{ last_working_day }}.</p>
+<p>During this period, {{ employee_name }} held the role of {{ role }} in the {{ department }} department, based in {{ location }}.</p>
+</div>
+<div class="sign">For {{ company_name }}<br><br>Human Resources</div>
+{% endblock %}

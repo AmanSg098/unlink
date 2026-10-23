@@ -1,0 +1,7 @@
+{% extends "_base.html" %}
+{% block content %}
+<p>{{ employee_name }}<br><span class="muted">Employee code {{ employee_code }} · {{ role }}, {{ department }}</span></p>
+<h1>{{ title }}</h1>
+<div class="body">{% for para in body.split("\n\n") %}<p>{{ para }}</p>{% endfor %}</div>
+<div class="sign">For {{ company_name }}<br><br>Human Resources</div>
+{% endblock %}

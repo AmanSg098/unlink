@@ -1,0 +1,196 @@
+# India ruleset: DEVELOPMENT PLACEHOLDER.
+#
+# Every rule below is UNVERIFIED and not for use with real employees. Values and section references
+# were written from general knowledge of the Labour Codes and must be checked by a qualified lawyer,
+# who records verification through the Rules page (or POST /api/rulesets/{id}/verify). State-level
+# variations and establishment-size thresholds differ and are only sketched here.
+#
+# Money values are integer paise. Formulas use the safe expression language (see rules/README.md).
+
+ruleset:
+  key: india
+  version: "2026.1"
+  jurisdiction: India
+  title: India labour rules (placeholder, unverified)
+
+rules:
+  - id: IN-NOTICE-001
+    title: Notice period for permanent employees in a retrenchment
+    category: notice
+    applies_to: {employment_type: [permanent]}
+    value: {days: 30, pay_in_lieu_allowed: true}
+    source: "Industrial Relations Code, 2020, s.70(a): one month's notice in writing, or wages in lieu"
+    effective_date: 2025-11-21
+    notes: "Contract notice applies instead when it is longer (see IN-NOTICE-004)."
+
+  - id: IN-NOTICE-002
+    title: Notice period for fixed-term and contract employees
+    category: notice
+    applies_to: {employment_type: [fixed_term, contract]}
+    value: {days: 0, pay_in_lieu_allowed: true}
+    source: "Terms of the fixed-term or contract engagement; confirm per contract"
+    effective_date: 2025-11-21
+
+  - id: IN-NOTICE-003
+    title: Notice period for interns
+    category: notice
+    applies_to: {employment_type: [intern]}
+    value: {days: 0, pay_in_lieu_allowed: true}
+    source: "Internship agreement; confirm per agreement"
+    effective_date: 2025-11-21
+
+  - id: IN-NOTICE-004
+    title: Contractual notice prevails when longer than statutory notice
+    category: notice
+    applies_to: {}
+    value: {use_contract_if_longer: true}
+    source: "Employment contract; general principle, confirm with counsel"
+    effective_date: 2025-11-21
+
+  - id: IN-GOVT-001
+    title: Prior government permission for retrenchment in larger establishments
+    category: sequencing
+    applies_to: {reason_codes: [RED-ROLE, RED-TEAM, RED-LOC]}
+    value: {min_workers: 300, apply_days_before: 60}
+    source: "Industrial Relations Code, 2020, Chapter X (s.77-79); threshold may be varied by the appropriate government"
+    effective_date: 2025-11-21
+
+  - id: IN-RETR-001
+    title: Retrenchment compensation
+    category: compensation
+    applies_to: {reason_codes: [RED-ROLE, RED-TEAM, RED-LOC], employment_type: [permanent]}
+    value: {days_per_completed_year: 15, wage_divisor: 26, min_service_days: 365, wage_components: [basic, da]}
+    source: "Industrial Relations Code, 2020, s.70(b): fifteen days' average pay for every completed year"
+    effective_date: 2025-11-21
+    notes: "Continuous-service tests (240 days in a year) need checking per employee."
+
+  - id: IN-RETR-002
+    title: Order of retrenchment (last come, first go)
+    category: selection
+    applies_to: {reason_codes: [RED-ROLE, RED-TEAM, RED-LOC]}
+    value: {method: lifo, within: [department, role]}
+    source: "Industrial Relations Code, 2020, s.71: ordinarily retrench the last person employed in the category"
+    effective_date: 2025-11-21
+    notes: "Departures need recorded reasons."
+
+  - id: IN-GRAT-001
+    title: Gratuity
+    category: compensation
+    applies_to: {}
+    value:
+      days_per_year: 15
+      wage_divisor: 26
+      min_years: 5
+      min_years_fixed_term: 1
+      round_up_months: 6
+      cap_paise: 200000000
+      wage_components: [basic, da]
+    source: "Code on Social Security, 2020, s.53"
+    effective_date: 2025-11-21
+    notes: "Ceiling is notified by the government and changes over time."
+
+  - id: IN-LEAVE-001
+    title: Leave encashment on exit
+    category: compensation
+    applies_to: {}
+    value: {wage_divisor: 30, wage_components: [basic, da]}
+    source: "Company leave policy and applicable state Shops and Establishments Act (varies by state)"
+    effective_date: 2025-11-21
+
+  - id: IN-BONUS-001
+    title: Statutory bonus proration
+    category: compensation
+    applies_to: {}
+    value: {rate_pct: 8.33, eligibility_monthly_wage_paise: 2100000, calc_monthly_wage_paise: 700000, min_days_worked: 30}
+    source: "Code on Wages, 2019, s.26"
+    effective_date: 2025-11-21
+    notes: "Calculation wage is the higher of the notified amount and the minimum wage."
+
+  - id: IN-PAY-001
+    title: Pay in lieu of notice
+    category: compensation
+    applies_to: {}
+    value: {wage_divisor: 30, wage_components: [basic, da, hra, special]}
+    source: "Industrial Relations Code, 2020, s.70(a); contract terms"
+    effective_date: 2025-11-21
+
+  - id: IN-PAY-002
+    title: Notice shortfall recovery
+    category: deduction
+    applies_to: {}
+    value: {allowed: true, wage_divisor: 30, wage_components: [basic, da]}
+    source: "Employment contract; recovery must be permitted by contract"
+    effective_date: 2025-11-21
+
+  - id: IN-PAY-003
+    title: Final month salary proration
+    category: compensation
+    applies_to: {}
+    value: {basis: calendar_days, wage_components: [basic, da, hra, special]}
+    source: "Company payroll policy"
+    effective_date: 2025-11-21
+
+  - id: IN-FNF-001
+    title: Full and final settlement payment deadline
+    category: fnf
+    applies_to: {}
+    value: {working_days_after_exit: 2}
+    source: "Code on Wages, 2019, s.17(2)"
+    effective_date: 2025-11-21
+
+  - id: IN-FNF-002
+    title: FNF rounding
+    category: fnf
+    applies_to: {}
+    value: {round_to_paise: 100}
+    source: "Company payroll policy (round net payable to the nearest rupee)"
+    effective_date: 2025-11-21
+
+  - id: IN-CONSULT-001
+    title: Pre-notice consultation for group reductions
+    category: sequencing
+    applies_to: {}
+    value: {min_group_size: 10, days_before_notice: 7}
+    source: "Company policy placeholder; confirm any statutory or standing-order requirement"
+    effective_date: 2025-11-21
+
+  - id: IN-PROTECT-001
+    title: Protected leave types
+    category: protection
+    applies_to: {}
+    value: {leave_types: [maternity, medical]}
+    source: "Code on Social Security, 2020, s.65 (no dismissal during maternity absence); company policy for medical leave"
+    effective_date: 2025-11-21
+
+  - id: IN-PERF-001
+    title: Threshold for a performance-based reason without a PIP
+    category: reasons
+    applies_to: {}
+    value: {max_rating: 2, cycles: 2}
+    source: "Company policy"
+    effective_date: 2025-11-21
+
+  - id: IN-PIP-001
+    title: PIP status values used in selection scoring
+    category: scoring
+    applies_to: {}
+    value: {none: 1, met: 1, partially_met: 0.5, active: 0.25, not_met: 0}
+    source: "Company policy"
+    effective_date: 2025-11-21
+
+  - id: IN-GRIEV-001
+    title: Grievance acknowledgement deadline
+    category: grievance
+    applies_to: {}
+    value: {days: 3}
+    source: "Company grievance policy; confirm against standing orders and the Industrial Relations Code grievance provisions"
+    effective_date: 2025-11-21
+
+  - id: IN-STATE-001
+    title: State-level variations
+    category: notice
+    applies_to: {}
+    value: {states: {}}
+    source: "State Shops and Establishments Acts; to be filled in per state of operation"
+    effective_date: 2025-11-21
+    notes: "Placeholder. No state differences are applied yet."

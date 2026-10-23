@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ title }}</title>
+<style>
+  @page { size: A4; margin: 22mm 20mm 24mm;
+    @bottom-left { content: "{{ company_name }} · {{ doc_ref }}"; font-size: 8pt; color: #777; }
+    @bottom-right { content: "Page " counter(page) " of " counter(pages); font-size: 8pt; color: #777; } }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; color: #111; line-height: 1.5; }
+  .watermark { position: fixed; top: 45%; left: 0; right: 0; text-align: center; transform: rotate(-30deg);
+    font-size: 70pt; font-weight: 700; color: rgba(0,0,0,0.06); letter-spacing: 8pt; z-index: -1; }
+  .head { display: flex; justify-content: space-between; border-bottom: 1px solid #ccc; padding-bottom: 6mm; margin-bottom: 8mm; }
+  .company { font-weight: 700; font-size: 13pt; }
+  .muted { color: #666; }
+  h1 { font-size: 15pt; margin: 0 0 6mm; }
+  table { width: 100%; border-collapse: collapse; margin: 4mm 0; }
+  th, td { text-align: left; padding: 1.6mm 2mm; border-bottom: 1px solid #e6e6e6; vertical-align: top; }
+  th { background: #f4f4f4; font-size: 9pt; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .body p { margin: 0 0 3mm; white-space: pre-wrap; }
+  .sign { margin-top: 14mm; }
+  .total td { font-weight: 700; border-top: 2px solid #333; }
+  .small { font-size: 8.5pt; }
+</style>
+</head>
+<body>
+<div class="watermark">CONFIDENTIAL</div>
+<div class="head">
+  <div><div class="company">{{ company_name }}</div><div class="muted small">{{ company_address }}</div></div>
+  <div class="muted small" style="text-align:right">Ref: {{ doc_ref }}<br>Date: {{ issue_date }}</div>
+</div>
+{% block content %}{% endblock %}
+</body>
+</html>

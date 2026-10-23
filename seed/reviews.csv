@@ -1,0 +1,980 @@
+employee_code,cycle,self_rating,manager_rating,calibrated_rating,manager_comment
+E0001,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0001,Q1 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0001,Q2 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0001,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0002,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0002,Q1 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0002,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0002,Q3 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0003,Q4 2025,5,4.6,4.6,Met expectations for the quarter.
+E0003,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0003,Q2 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0003,Q3 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0004,Q4 2025,5,4.6,4.6,Met expectations for the quarter.
+E0004,Q1 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0004,Q2 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0004,Q3 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0005,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0005,Q1 2026,3.4,3.5,3.0,Met expectations for the quarter.
+E0005,Q2 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0005,Q3 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0006,Q1 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0006,Q2 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0006,Q3 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0007,Q4 2025,1.8,1,1.4,
+E0007,Q1 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0007,Q2 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0007,Q3 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0008,Q4 2025,5,5,5,Met expectations for the quarter.
+E0008,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0008,Q2 2026,5,5,5,Met expectations for the quarter.
+E0008,Q3 2026,5,5,5,Met expectations for the quarter.
+E0009,Q4 2025,3.2,2.8,2.8,Met expectations for the quarter.
+E0009,Q1 2026,3.0,2.1,2.6,Met expectations for the quarter.
+E0009,Q2 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0009,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0010,Q4 2025,3.5,2.6,3.1,Met expectations for the quarter.
+E0010,Q1 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0010,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0010,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0011,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0011,Q1 2026,4.1,3.2,3.7,Met expectations for the quarter.
+E0011,Q2 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0011,Q3 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0012,Q4 2025,3.9,4.0,3.5,Met expectations for the quarter.
+E0012,Q1 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0012,Q2 2026,3.2,3.3,2.8,Met expectations for the quarter.
+E0012,Q3 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0013,Q2 2026,5,4.6,4.6,Met expectations for the quarter.
+E0013,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0014,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0014,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0014,Q2 2026,4.2,3.3,3.8,Met expectations for the quarter.
+E0014,Q3 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0015,Q4 2025,3.0,3.1,2.6,Met expectations for the quarter.
+E0015,Q1 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0015,Q2 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0015,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0016,Q4 2025,4.7,4.3,4.3,Met expectations for the quarter.
+E0016,Q1 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0016,Q2 2026,4.5,4.6,4.1,Met expectations for the quarter.
+E0016,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0017,Q4 2025,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0017,Q1 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0017,Q2 2026,1.8,1.4,1.4,
+E0017,Q3 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0018,Q4 2025,4.9,4.0,4.5,Met expectations for the quarter.
+E0018,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0018,Q2 2026,5,4.6,4.6,Met expectations for the quarter.
+E0018,Q3 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0019,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0019,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0019,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0019,Q3 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0020,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0020,Q1 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0020,Q2 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0020,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0021,Q4 2025,4.0,4.1,3.6,Met expectations for the quarter.
+E0021,Q1 2026,4.0,3.1,3.6,Met expectations for the quarter.
+E0021,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0021,Q3 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0022,Q4 2025,3.0,2.1,2.6,Met expectations for the quarter.
+E0022,Q1 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0022,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0022,Q3 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0023,Q4 2025,3.5,3.6,3.1,Met expectations for the quarter.
+E0023,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0023,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0023,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0024,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0024,Q1 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0024,Q2 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0024,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0025,Q4 2025,4.6,3.7,4.2,Met expectations for the quarter.
+E0025,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0025,Q2 2026,4.7,3.8,4.3,Met expectations for the quarter.
+E0025,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0026,Q4 2025,4.5,4.6,4.1,Met expectations for the quarter.
+E0026,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0026,Q2 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0026,Q3 2026,4.3,3.4,3.9,Met expectations for the quarter.
+E0027,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0027,Q1 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0027,Q2 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0027,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0028,Q4 2025,2.4,2.0,2.0,Missed agreed targets; needs closer support on priorities.
+E0028,Q1 2026,1.8,1.4,1.4,
+E0028,Q2 2026,2.4,2.0,2.0,
+E0028,Q3 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0029,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0029,Q1 2026,3.9,4.0,3.5,Met expectations for the quarter.
+E0029,Q2 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0029,Q3 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0030,Q4 2025,3.6,3.2,3.2,Met expectations for the quarter.
+E0030,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0030,Q2 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0030,Q3 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0031,Q4 2025,3.5,2.6,3.1,Met expectations for the quarter.
+E0031,Q1 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0031,Q2 2026,3.2,3.3,2.8,Met expectations for the quarter.
+E0031,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0032,Q4 2025,3.3,2.4,2.9,Met expectations for the quarter.
+E0032,Q1 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0032,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0032,Q3 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0033,Q4 2025,4.2,3.3,3.8,Met expectations for the quarter.
+E0033,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0033,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0033,Q3 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0034,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0034,Q1 2026,5,4.1,4.6,Met expectations for the quarter.
+E0034,Q2 2026,4.5,4.6,4.1,Met expectations for the quarter.
+E0034,Q3 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0035,Q4 2025,2.1,1.7,1.7,
+E0035,Q1 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0035,Q2 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0035,Q3 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0036,Q4 2025,2.3,2.4,1.9,Missed agreed targets; needs closer support on priorities.
+E0036,Q1 2026,2.6,2.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0036,Q2 2026,2.2,2.3,1.8,Missed agreed targets; needs closer support on priorities.
+E0036,Q3 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0037,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0037,Q1 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0037,Q2 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0037,Q3 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0038,Q4 2025,2.5,1.6,2.1,
+E0038,Q1 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0038,Q2 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0038,Q3 2026,2.5,2.6,2.1,
+E0039,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0039,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0039,Q2 2026,4.8,3.9,4.4,Met expectations for the quarter.
+E0039,Q3 2026,4.4,3.5,4.0,Met expectations for the quarter.
+E0040,Q4 2025,3.3,2.9,2.9,Met expectations for the quarter.
+E0040,Q1 2026,3.9,4.0,3.5,Met expectations for the quarter.
+E0040,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0040,Q3 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0041,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0041,Q1 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0041,Q2 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0041,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0042,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0042,Q1 2026,3.5,3.6,3.1,Met expectations for the quarter.
+E0042,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0042,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0043,Q4 2025,3.3,3.4,2.9,Met expectations for the quarter.
+E0043,Q1 2026,4.0,3.1,3.6,Met expectations for the quarter.
+E0043,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0043,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0044,Q4 2025,3.8,2.9,3.4,Met expectations for the quarter.
+E0044,Q1 2026,3.2,3.3,2.8,Met expectations for the quarter.
+E0044,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0044,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0045,Q4 2025,2.9,2.0,2.5,Met expectations for the quarter.
+E0045,Q1 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0045,Q2 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0045,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0046,Q4 2025,3.3,2.4,2.9,Met expectations for the quarter.
+E0046,Q1 2026,4.0,4.1,3.6,Met expectations for the quarter.
+E0046,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0046,Q3 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0047,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0047,Q1 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0047,Q2 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0047,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0048,Q4 2025,4.0,4.1,3.6,Met expectations for the quarter.
+E0048,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0048,Q2 2026,4.1,3.2,3.7,Met expectations for the quarter.
+E0048,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0049,Q4 2025,3.1,3.2,2.7,Met expectations for the quarter.
+E0049,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0049,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0049,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0050,Q4 2025,4.2,3.3,3.8,Met expectations for the quarter.
+E0050,Q1 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0050,Q2 2026,4.0,4.1,3.6,Met expectations for the quarter.
+E0050,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0051,Q4 2025,3.3,2.9,2.9,Met expectations for the quarter.
+E0051,Q1 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0051,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0051,Q3 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0052,Q2 2026,5,5,5.0,Met expectations for the quarter.
+E0052,Q3 2026,5,5,5,Met expectations for the quarter.
+E0053,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0053,Q1 2026,4.1,3.2,3.7,Met expectations for the quarter.
+E0053,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0053,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0054,Q4 2025,2.7,2.8,2.3,Met expectations for the quarter.
+E0054,Q1 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0054,Q2 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0054,Q3 2026,2.6,2.2,2.2,
+E0055,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0055,Q1 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0055,Q2 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0055,Q3 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0056,Q4 2025,5,5,5,Met expectations for the quarter.
+E0056,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0056,Q2 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0056,Q3 2026,4.9,4.0,4.5,Met expectations for the quarter.
+E0057,Q4 2025,3.2,3.3,2.8,Met expectations for the quarter.
+E0057,Q1 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0057,Q2 2026,3.0,3.1,2.6,Met expectations for the quarter.
+E0057,Q3 2026,3.4,3.5,3.0,Met expectations for the quarter.
+E0058,Q1 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0058,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0058,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0059,Q4 2025,4.6,4.2,4.2,Met expectations for the quarter.
+E0059,Q1 2026,4.5,4.6,4.1,Met expectations for the quarter.
+E0059,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0059,Q3 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0060,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0060,Q1 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0060,Q2 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0060,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0061,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0061,Q1 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0061,Q2 2026,2.8,2.9,2.4,Met expectations for the quarter.
+E0061,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0062,Q4 2025,2.8,1.9,2.4,Met expectations for the quarter.
+E0062,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0062,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0062,Q3 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0063,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0063,Q1 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0063,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0063,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0064,Q4 2025,5,4.6,4.6,Met expectations for the quarter.
+E0064,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0064,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0064,Q3 2026,4.7,3.8,4.3,Met expectations for the quarter.
+E0065,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0065,Q1 2026,2.6,2.2,2.2,
+E0065,Q2 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0065,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0066,Q4 2025,2.4,2.0,2.0,Missed agreed targets; needs closer support on priorities.
+E0066,Q1 2026,1.8,1,1.4,Missed agreed targets; needs closer support on priorities.
+E0066,Q2 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0066,Q3 2026,2.1,1.7,1.7,Missed agreed targets; needs closer support on priorities.
+E0067,Q4 2025,4.1,3.2,3.7,Met expectations for the quarter.
+E0067,Q1 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0067,Q2 2026,3.8,2.9,3.4,Met expectations for the quarter.
+E0067,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0068,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0068,Q1 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0068,Q2 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0068,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0069,Q4 2025,2.6,1.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0069,Q1 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0069,Q2 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0069,Q3 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0070,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0070,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0070,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0070,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0071,Q2 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0071,Q3 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0072,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0072,Q1 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0072,Q2 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0072,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0073,Q1 2026,5,5,5.0,Met expectations for the quarter.
+E0073,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0073,Q3 2026,4.8,4.9,4.4,Met expectations for the quarter.
+E0074,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0074,Q1 2026,3.0,2.1,2.6,Met expectations for the quarter.
+E0074,Q2 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0074,Q3 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0075,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0075,Q1 2026,2.9,2.0,2.5,Met expectations for the quarter.
+E0075,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0075,Q3 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0076,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0076,Q1 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0076,Q2 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0076,Q3 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0077,Q4 2025,4.1,3.2,3.7,Met expectations for the quarter.
+E0077,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0077,Q2 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0077,Q3 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0078,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0078,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0078,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0079,Q4 2025,2.4,2.0,2.0,Missed agreed targets; needs closer support on priorities.
+E0079,Q1 2026,2.1,1.7,1.7,
+E0079,Q2 2026,2.6,2.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0079,Q3 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0080,Q4 2025,4.1,4.2,3.7,Met expectations for the quarter.
+E0080,Q1 2026,4.2,3.3,3.8,Met expectations for the quarter.
+E0080,Q2 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0080,Q3 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0081,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0081,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0081,Q2 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0081,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0082,Q4 2025,5,4.5,5,Met expectations for the quarter.
+E0082,Q1 2026,5,4.7,4.7,Met expectations for the quarter.
+E0082,Q2 2026,5,4.9,4.9,Met expectations for the quarter.
+E0082,Q3 2026,5,4.9,4.9,Met expectations for the quarter.
+E0083,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0083,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0083,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0083,Q3 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0084,Q4 2025,4.1,4.2,3.7,Met expectations for the quarter.
+E0084,Q1 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0084,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0084,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0085,Q4 2025,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0085,Q1 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0085,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0085,Q3 2026,2.9,3.0,2.5,Met expectations for the quarter.
+E0086,Q4 2025,3.0,2.6,2.6,Met expectations for the quarter.
+E0086,Q1 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0086,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0086,Q3 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0087,Q4 2025,3.2,2.8,2.8,Met expectations for the quarter.
+E0087,Q1 2026,2.2,1.3,1.8,Missed agreed targets; needs closer support on priorities.
+E0087,Q2 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0087,Q3 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0088,Q4 2025,3.1,2.2,2.7,Met expectations for the quarter.
+E0088,Q1 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0088,Q2 2026,2.8,1.9,2.4,Met expectations for the quarter.
+E0088,Q3 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0089,Q4 2025,5,4.7,4.7,Met expectations for the quarter.
+E0089,Q1 2026,4.9,5,4.5,Met expectations for the quarter.
+E0089,Q2 2026,5,4.7,4.7,Met expectations for the quarter.
+E0089,Q3 2026,5,5,4.8,Met expectations for the quarter.
+E0090,Q4 2025,2.7,2.3,2.3,Met expectations for the quarter.
+E0090,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0090,Q2 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0090,Q3 2026,2.8,2.9,2.4,Met expectations for the quarter.
+E0091,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0091,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0091,Q2 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0091,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0092,Q4 2025,3.1,3.2,2.7,Met expectations for the quarter.
+E0092,Q1 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0092,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0092,Q3 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0093,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0093,Q1 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0093,Q2 2026,3.0,2.1,2.6,Met expectations for the quarter.
+E0093,Q3 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0094,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0094,Q1 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0094,Q2 2026,2.6,2.2,2.2,
+E0094,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0095,Q4 2025,5,4.8,4.8,Met expectations for the quarter.
+E0095,Q1 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0095,Q2 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0095,Q3 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0096,Q4 2025,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0096,Q1 2026,2.3,2.4,1.9,
+E0096,Q2 2026,1.7,1.3,1.3,Missed agreed targets; needs closer support on priorities.
+E0096,Q3 2026,2.1,1.7,1.7,Missed agreed targets; needs closer support on priorities.
+E0097,Q4 2025,4.2,3.3,3.8,Met expectations for the quarter.
+E0097,Q1 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0097,Q2 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0097,Q3 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0098,Q4 2025,2.7,2.3,2.3,Met expectations for the quarter.
+E0098,Q1 2026,2.3,2.4,1.9,Missed agreed targets; needs closer support on priorities.
+E0098,Q2 2026,2.5,1.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0098,Q3 2026,2.5,1.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0099,Q4 2025,2.9,3.0,2.5,Met expectations for the quarter.
+E0099,Q1 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0099,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0099,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0100,Q4 2025,3.2,3.3,2.8,Met expectations for the quarter.
+E0100,Q1 2026,3.8,2.9,3.4,Met expectations for the quarter.
+E0100,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0100,Q3 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0101,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0101,Q1 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0101,Q2 2026,3.4,3.5,3.0,Met expectations for the quarter.
+E0101,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0102,Q4 2025,3.3,2.9,2.9,Met expectations for the quarter.
+E0102,Q1 2026,3.9,4.0,3.5,Met expectations for the quarter.
+E0102,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0102,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0103,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0103,Q1 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0103,Q2 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0103,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0104,Q4 2025,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0104,Q1 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0104,Q2 2026,2.4,2.0,2.0,
+E0104,Q3 2026,2.6,2.2,2.2,
+E0105,Q4 2025,1.8,1.4,1.4,Missed agreed targets; needs closer support on priorities.
+E0105,Q1 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0105,Q2 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0105,Q3 2026,2.4,1.5,2.0,Missed agreed targets; needs closer support on priorities.
+E0106,Q4 2025,3.7,3.8,3.3,Met expectations for the quarter.
+E0106,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0106,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0106,Q3 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0107,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0107,Q1 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0107,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0107,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0108,Q4 2025,3.1,3.2,2.7,Met expectations for the quarter.
+E0108,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0108,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0108,Q3 2026,2.8,1.9,2.4,Met expectations for the quarter.
+E0109,Q4 2025,4.8,4.9,4.4,Met expectations for the quarter.
+E0109,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0109,Q2 2026,5,5,5,Met expectations for the quarter.
+E0109,Q3 2026,5,5,4.7,Met expectations for the quarter.
+E0110,Q4 2025,4.6,3.7,4.2,Met expectations for the quarter.
+E0110,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0110,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0110,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0111,Q2 2026,5,5,4.8,Met expectations for the quarter.
+E0111,Q3 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0112,Q4 2025,3.5,3.6,3.1,Met expectations for the quarter.
+E0112,Q1 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0112,Q2 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0112,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0113,Q4 2025,2.3,2.4,1.9,
+E0113,Q1 2026,1.9,1.5,1.5,
+E0113,Q2 2026,2.4,2.0,2.0,Missed agreed targets; needs closer support on priorities.
+E0113,Q3 2026,2.4,2.0,2.0,
+E0114,Q4 2025,3.6,3.7,3.2,Met expectations for the quarter.
+E0114,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0114,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0114,Q3 2026,3.6,2.7,3.2,Met expectations for the quarter.
+E0115,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0115,Q1 2026,3.6,2.7,3.2,Met expectations for the quarter.
+E0115,Q2 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0115,Q3 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0116,Q4 2025,3.8,2.9,3.4,Met expectations for the quarter.
+E0116,Q1 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0116,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0116,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0117,Q4 2025,2.6,1.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0117,Q1 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0117,Q2 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0117,Q3 2026,3.0,3.1,2.6,Met expectations for the quarter.
+E0118,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0118,Q1 2026,4.6,3.7,4.2,Met expectations for the quarter.
+E0118,Q2 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0118,Q3 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0119,Q4 2025,3.3,2.4,2.9,Met expectations for the quarter.
+E0119,Q1 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0119,Q2 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0119,Q3 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0120,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0120,Q1 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0120,Q2 2026,4.6,3.7,4.2,Met expectations for the quarter.
+E0120,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0121,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0121,Q1 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0121,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0121,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0122,Q4 2025,3.3,2.9,2.9,Met expectations for the quarter.
+E0122,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0122,Q2 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0122,Q3 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0123,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0123,Q1 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0123,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0123,Q3 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0124,Q4 2025,2.5,2.1,2.1,
+E0124,Q1 2026,2.4,2.5,2.0,Missed agreed targets; needs closer support on priorities.
+E0124,Q2 2026,2.4,1.5,2.0,
+E0124,Q3 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0125,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0125,Q1 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0125,Q2 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0125,Q3 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0126,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0126,Q1 2026,2.9,2.0,2.5,Met expectations for the quarter.
+E0126,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0126,Q3 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0127,Q4 2025,3.2,2.8,2.8,Met expectations for the quarter.
+E0127,Q1 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0127,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0127,Q3 2026,2.8,2.9,2.4,Met expectations for the quarter.
+E0128,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0128,Q1 2026,2.6,1.7,2.2,
+E0128,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0128,Q3 2026,2.6,1.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0129,Q4 2025,3.1,2.7,2.7,Met expectations for the quarter.
+E0129,Q1 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0129,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0129,Q3 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0130,Q4 2025,4.7,4.3,4.3,Met expectations for the quarter.
+E0130,Q1 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0130,Q2 2026,5,4.7,4.7,Met expectations for the quarter.
+E0130,Q3 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0131,Q4 2025,4.1,3.2,3.7,Met expectations for the quarter.
+E0131,Q1 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0131,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0131,Q3 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0132,Q4 2025,4.1,3.7,3.7,Met expectations for the quarter.
+E0132,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0132,Q2 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0132,Q3 2026,4.0,3.1,3.6,Met expectations for the quarter.
+E0133,Q4 2025,3.0,2.1,2.6,Met expectations for the quarter.
+E0133,Q1 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0133,Q2 2026,2.4,2.0,2.0,
+E0133,Q3 2026,2.9,2.0,2.5,Met expectations for the quarter.
+E0134,Q4 2025,4.5,4.1,4.1,Met expectations for the quarter.
+E0134,Q1 2026,4.8,3.9,4.4,Met expectations for the quarter.
+E0134,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0134,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0135,Q4 2025,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0135,Q1 2026,2.8,2.9,2.4,Met expectations for the quarter.
+E0135,Q2 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0135,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0136,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0136,Q1 2026,4.6,3.7,4.2,Met expectations for the quarter.
+E0136,Q2 2026,5,4.1,4.6,Met expectations for the quarter.
+E0136,Q3 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0137,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0137,Q1 2026,3.5,3.6,3.1,Met expectations for the quarter.
+E0137,Q2 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0137,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0138,Q4 2025,3.5,2.6,3.1,Met expectations for the quarter.
+E0138,Q1 2026,3.8,2.9,3.4,Met expectations for the quarter.
+E0138,Q2 2026,2.9,3.0,2.5,Met expectations for the quarter.
+E0138,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0139,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0139,Q1 2026,3.8,2.9,3.4,Met expectations for the quarter.
+E0139,Q2 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0139,Q3 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0140,Q4 2025,4.1,3.7,3.7,Met expectations for the quarter.
+E0140,Q1 2026,4.8,3.9,4.4,Met expectations for the quarter.
+E0140,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0140,Q3 2026,4.3,4.4,3.9,Met expectations for the quarter.
+E0141,Q4 2025,5,4.4,4.9,Met expectations for the quarter.
+E0141,Q1 2026,5,4.5,5,Met expectations for the quarter.
+E0141,Q2 2026,5,5,4.6,Met expectations for the quarter.
+E0141,Q3 2026,5,5,4.8,Met expectations for the quarter.
+E0142,Q4 2025,3.8,3.9,3.4,Met expectations for the quarter.
+E0142,Q1 2026,4.0,3.1,3.6,Met expectations for the quarter.
+E0142,Q2 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0142,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0143,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0143,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0143,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0143,Q3 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0144,Q4 2025,3.5,3.6,3.1,Met expectations for the quarter.
+E0144,Q1 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0144,Q2 2026,4.0,3.1,3.6,Met expectations for the quarter.
+E0144,Q3 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0145,Q4 2025,3.8,3.9,3.4,Met expectations for the quarter.
+E0145,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0145,Q2 2026,4.3,3.4,3.9,Met expectations for the quarter.
+E0145,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0146,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0146,Q1 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0146,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0146,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0147,Q4 2025,4.6,4.7,4.2,Met expectations for the quarter.
+E0147,Q1 2026,4.2,3.3,3.8,Met expectations for the quarter.
+E0147,Q2 2026,4.8,4.9,4.4,Met expectations for the quarter.
+E0147,Q3 2026,4.8,3.9,4.4,Met expectations for the quarter.
+E0148,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0148,Q3 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0149,Q4 2025,4.4,4.5,4.0,Met expectations for the quarter.
+E0149,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0149,Q2 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0149,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0150,Q4 2025,2.4,2.5,2.0,Missed agreed targets; needs closer support on priorities.
+E0150,Q1 2026,2.3,2.4,1.9,Missed agreed targets; needs closer support on priorities.
+E0150,Q2 2026,1.7,1.3,1.3,
+E0150,Q3 2026,2.2,2.3,1.8,
+E0151,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0151,Q1 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0151,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0151,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0152,Q4 2025,4.2,3.3,3.8,Met expectations for the quarter.
+E0152,Q1 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0152,Q2 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0152,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0153,Q3 2026,3.5,3.6,3.1,Met expectations for the quarter.
+E0154,Q4 2025,3.4,3.0,3.0,Met expectations for the quarter.
+E0154,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0154,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0154,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0155,Q4 2025,4.1,4.2,3.7,Met expectations for the quarter.
+E0155,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0155,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0155,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0156,Q4 2025,1.6,1,1.2,
+E0156,Q1 2026,1.6,1.2,1.2,Missed agreed targets; needs closer support on priorities.
+E0156,Q2 2026,1.6,1.2,1.2,Missed agreed targets; needs closer support on priorities.
+E0156,Q3 2026,1.5,1.1,1.1,Missed agreed targets; needs closer support on priorities.
+E0157,Q4 2025,4.2,3.8,3.8,Met expectations for the quarter.
+E0157,Q1 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0157,Q2 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0157,Q3 2026,4.1,3.2,3.7,Met expectations for the quarter.
+E0158,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0158,Q1 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0158,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0158,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0159,Q4 2025,2.9,2.5,2.5,Met expectations for the quarter.
+E0159,Q1 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0159,Q2 2026,2.5,2.1,2.1,Missed agreed targets; needs closer support on priorities.
+E0159,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0160,Q4 2025,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0160,Q1 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0160,Q2 2026,2.4,2.0,2.0,
+E0160,Q3 2026,2.9,3.0,2.5,Met expectations for the quarter.
+E0161,Q4 2025,3.4,3.0,3.0,Met expectations for the quarter.
+E0161,Q1 2026,4.4,3.5,4.0,Met expectations for the quarter.
+E0161,Q2 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0161,Q3 2026,3.9,4.0,3.5,Met expectations for the quarter.
+E0162,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0162,Q1 2026,2.6,1.7,2.2,
+E0162,Q2 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0162,Q3 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0163,Q4 2025,3.7,2.8,3.3,Met expectations for the quarter.
+E0163,Q1 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0163,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0163,Q3 2026,3.5,3.6,3.1,Met expectations for the quarter.
+E0164,Q4 2025,4.7,3.8,4.3,Met expectations for the quarter.
+E0164,Q1 2026,4.3,4.4,3.9,Met expectations for the quarter.
+E0164,Q2 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0164,Q3 2026,4.4,3.5,4.0,Met expectations for the quarter.
+E0165,Q4 2025,2.4,2.5,2.0,
+E0165,Q1 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0165,Q2 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0165,Q3 2026,2.5,2.1,2.1,
+E0166,Q4 2025,5,4.7,4.7,Met expectations for the quarter.
+E0166,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0166,Q2 2026,5,4.8,4.8,Met expectations for the quarter.
+E0166,Q3 2026,5,5,4.8,Met expectations for the quarter.
+E0167,Q4 2025,4.3,3.4,3.9,Met expectations for the quarter.
+E0167,Q1 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0167,Q2 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0167,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0168,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0168,Q1 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0168,Q2 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0168,Q3 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0169,Q4 2025,3.9,4.0,3.5,Met expectations for the quarter.
+E0169,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0169,Q2 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0169,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0170,Q4 2025,4.9,4.5,4.5,Met expectations for the quarter.
+E0170,Q1 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0170,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0170,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0171,Q4 2025,4.5,4.6,4.1,Met expectations for the quarter.
+E0171,Q1 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0171,Q2 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0171,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0172,Q4 2025,3.4,3.0,3.0,Met expectations for the quarter.
+E0172,Q1 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0172,Q2 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0172,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0173,Q4 2025,4.1,3.7,3.7,Met expectations for the quarter.
+E0173,Q1 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0173,Q2 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0173,Q3 2026,3.6,2.7,3.2,Met expectations for the quarter.
+E0174,Q4 2025,4.2,4.3,3.8,Met expectations for the quarter.
+E0174,Q1 2026,4.4,3.5,4.0,Met expectations for the quarter.
+E0174,Q2 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0174,Q3 2026,4.0,4.1,3.6,Met expectations for the quarter.
+E0175,Q4 2025,3.0,2.6,2.6,Met expectations for the quarter.
+E0175,Q1 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0175,Q2 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0175,Q3 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0176,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0176,Q1 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0176,Q2 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0176,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0177,Q4 2025,4.2,3.8,3.8,Met expectations for the quarter.
+E0177,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0177,Q2 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0177,Q3 2026,4.7,3.8,4.3,Met expectations for the quarter.
+E0178,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0178,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0178,Q2 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0178,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0179,Q4 2025,1.9,1.5,1.5,Missed agreed targets; needs closer support on priorities.
+E0179,Q1 2026,2.0,2.1,1.6,
+E0179,Q2 2026,2.3,1.9,1.9,
+E0179,Q3 2026,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0180,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0180,Q1 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0180,Q2 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0180,Q3 2026,4.2,3.3,3.8,Met expectations for the quarter.
+E0181,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0181,Q1 2026,3.4,3.5,3.0,Met expectations for the quarter.
+E0181,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0181,Q3 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0182,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0182,Q1 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0182,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0182,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0183,Q4 2025,3.9,3.5,3.5,Met expectations for the quarter.
+E0183,Q1 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0183,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0183,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0184,Q4 2025,3.6,3.7,3.2,Met expectations for the quarter.
+E0184,Q1 2026,3.6,2.7,3.2,Met expectations for the quarter.
+E0184,Q2 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0184,Q3 2026,4.1,3.2,3.7,Met expectations for the quarter.
+E0185,Q4 2025,3.5,2.6,3.1,Met expectations for the quarter.
+E0185,Q1 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0185,Q2 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0185,Q3 2026,3.0,2.1,2.6,Met expectations for the quarter.
+E0186,Q4 2025,4.6,4.2,4.2,Met expectations for the quarter.
+E0186,Q1 2026,5,5,4.7,Met expectations for the quarter.
+E0186,Q2 2026,5,4.7,4.7,Met expectations for the quarter.
+E0186,Q3 2026,5,5,4.6,Met expectations for the quarter.
+E0187,Q4 2025,3.1,2.2,2.7,Met expectations for the quarter.
+E0187,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0187,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0187,Q3 2026,2.9,2.0,2.5,Met expectations for the quarter.
+E0188,Q4 2025,3.2,2.8,2.8,Met expectations for the quarter.
+E0188,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0188,Q2 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0188,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0189,Q4 2025,2.5,2.1,2.1,
+E0189,Q1 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0189,Q2 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0189,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0190,Q4 2025,4.9,4.0,4.5,Met expectations for the quarter.
+E0190,Q1 2026,4.5,4.6,4.1,Met expectations for the quarter.
+E0190,Q2 2026,5,5,4.6,Met expectations for the quarter.
+E0190,Q3 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0191,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0191,Q1 2026,3.8,2.9,3.4,Met expectations for the quarter.
+E0191,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0191,Q3 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0192,Q4 2025,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0192,Q1 2026,3.3,2.4,2.9,Met expectations for the quarter.
+E0192,Q2 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0192,Q3 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0193,Q4 2025,2.6,2.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0193,Q1 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0193,Q2 2026,1.8,1,1.4,Missed agreed targets; needs closer support on priorities.
+E0193,Q3 2026,2.4,2.0,2.0,Missed agreed targets; needs closer support on priorities.
+E0194,Q4 2025,4.0,3.6,3.6,Met expectations for the quarter.
+E0194,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0194,Q2 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0194,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0195,Q4 2025,3.3,3.4,2.9,Met expectations for the quarter.
+E0195,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0195,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0195,Q3 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0196,Q4 2025,3.5,3.1,3.1,Met expectations for the quarter.
+E0196,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0196,Q2 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0196,Q3 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0197,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0197,Q1 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0197,Q2 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0197,Q3 2026,4.0,4.1,3.6,Met expectations for the quarter.
+E0198,Q4 2025,2.2,1.3,1.8,
+E0198,Q1 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0198,Q2 2026,2.8,2.4,2.4,Met expectations for the quarter.
+E0198,Q3 2026,2.5,1.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0199,Q4 2025,3.9,3.0,3.5,Met expectations for the quarter.
+E0199,Q1 2026,4.1,4.2,3.7,Met expectations for the quarter.
+E0199,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0199,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0200,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0200,Q1 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0200,Q2 2026,2.4,1.5,2.0,Missed agreed targets; needs closer support on priorities.
+E0200,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0201,Q4 2025,4.6,4.2,4.2,Met expectations for the quarter.
+E0201,Q1 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0201,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0201,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0202,Q4 2025,5,5,4.6,Met expectations for the quarter.
+E0202,Q1 2026,4.6,3.7,4.2,Met expectations for the quarter.
+E0202,Q2 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0202,Q3 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0203,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0203,Q1 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0203,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0203,Q3 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0204,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0204,Q1 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0204,Q2 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0204,Q3 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0205,Q4 2025,3.4,3.0,3.0,Met expectations for the quarter.
+E0205,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0205,Q2 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0205,Q3 2026,3.0,2.6,2.6,Met expectations for the quarter.
+E0206,Q4 2025,3.9,3.0,3.5,Met expectations for the quarter.
+E0206,Q1 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0206,Q2 2026,4.6,3.7,4.2,Met expectations for the quarter.
+E0206,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0207,Q4 2025,4.1,3.2,3.7,Met expectations for the quarter.
+E0207,Q1 2026,3.3,2.9,2.9,Met expectations for the quarter.
+E0207,Q2 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0207,Q3 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0208,Q4 2025,3.5,3.6,3.1,Met expectations for the quarter.
+E0208,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0208,Q2 2026,3.8,3.9,3.4,Met expectations for the quarter.
+E0208,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0209,Q4 2025,3.1,2.2,2.7,Met expectations for the quarter.
+E0209,Q1 2026,2.8,1.9,2.4,Met expectations for the quarter.
+E0209,Q2 2026,2.1,1.7,1.7,Missed agreed targets; needs closer support on priorities.
+E0209,Q3 2026,2.6,2.7,2.2,
+E0210,Q4 2025,4.5,4.6,4.1,Met expectations for the quarter.
+E0210,Q1 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0210,Q2 2026,4.3,4.4,3.9,Met expectations for the quarter.
+E0210,Q3 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0211,Q4 2025,2.1,1.7,1.7,Missed agreed targets; needs closer support on priorities.
+E0211,Q1 2026,1.9,1.5,1.5,Missed agreed targets; needs closer support on priorities.
+E0211,Q2 2026,1.7,1.8,1.3,Missed agreed targets; needs closer support on priorities.
+E0211,Q3 2026,2.3,1.4,1.9,
+E0212,Q4 2025,3.6,3.2,3.2,Met expectations for the quarter.
+E0212,Q1 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0212,Q2 2026,4.7,3.8,4.3,Met expectations for the quarter.
+E0212,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0213,Q4 2025,4.6,4.2,4.2,Met expectations for the quarter.
+E0213,Q1 2026,4.8,3.9,4.4,Met expectations for the quarter.
+E0213,Q2 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0213,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0214,Q1 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0214,Q2 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0214,Q3 2026,4.1,3.7,3.7,Met expectations for the quarter.
+E0215,Q4 2025,4.4,4.5,4.0,Met expectations for the quarter.
+E0215,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0215,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0215,Q3 2026,4.0,3.6,3.6,Met expectations for the quarter.
+E0216,Q4 2025,2.5,2.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0216,Q1 2026,2.6,2.7,2.2,Missed agreed targets; needs closer support on priorities.
+E0216,Q2 2026,2.4,2.0,2.0,
+E0216,Q3 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0217,Q4 2025,4.1,3.7,3.7,Met expectations for the quarter.
+E0217,Q1 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0217,Q2 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0217,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0218,Q4 2025,4.2,3.8,3.8,Met expectations for the quarter.
+E0218,Q1 2026,3.4,3.5,3.0,Met expectations for the quarter.
+E0218,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0218,Q3 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0219,Q4 2025,3.1,2.2,2.7,Met expectations for the quarter.
+E0219,Q1 2026,2.7,2.8,2.3,Met expectations for the quarter.
+E0219,Q2 2026,2.4,2.5,2.0,Missed agreed targets; needs closer support on priorities.
+E0219,Q3 2026,2.9,2.0,2.5,Met expectations for the quarter.
+E0220,Q4 2025,4.5,4.1,4.1,Met expectations for the quarter.
+E0220,Q1 2026,4.0,4.1,3.6,Met expectations for the quarter.
+E0220,Q2 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0220,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0221,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0221,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0221,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0221,Q3 2026,4.9,4.0,4.5,Met expectations for the quarter.
+E0222,Q4 2025,2.3,1.9,1.9,
+E0222,Q1 2026,2.3,1.4,1.9,
+E0222,Q2 2026,3.0,2.1,2.6,Met expectations for the quarter.
+E0222,Q3 2026,2.6,2.2,2.2,
+E0223,Q4 2025,5,4.1,4.6,Met expectations for the quarter.
+E0223,Q1 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0223,Q2 2026,4.3,3.4,3.9,Met expectations for the quarter.
+E0223,Q3 2026,4.8,4.4,4.4,Met expectations for the quarter.
+E0224,Q4 2025,4.9,4.5,4.5,Met expectations for the quarter.
+E0224,Q1 2026,4.2,4.3,3.8,Met expectations for the quarter.
+E0224,Q2 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0224,Q3 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0225,Q4 2025,3.7,3.3,3.3,Met expectations for the quarter.
+E0225,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0225,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0225,Q3 2026,3.5,3.1,3.1,Met expectations for the quarter.
+E0226,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0226,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0226,Q2 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0226,Q3 2026,3.4,2.5,3.0,Met expectations for the quarter.
+E0227,Q4 2025,3.6,2.7,3.2,Met expectations for the quarter.
+E0227,Q1 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0227,Q2 2026,3.1,3.2,2.7,Met expectations for the quarter.
+E0227,Q3 2026,3.1,2.7,2.7,Met expectations for the quarter.
+E0228,Q4 2025,4.8,3.9,4.4,Met expectations for the quarter.
+E0228,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0228,Q2 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0228,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0229,Q4 2025,4.3,3.9,3.9,Met expectations for the quarter.
+E0229,Q1 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0229,Q2 2026,5,5,4.7,Met expectations for the quarter.
+E0229,Q3 2026,4.5,4.1,4.1,Met expectations for the quarter.
+E0230,Q4 2025,4.7,3.8,4.3,Met expectations for the quarter.
+E0230,Q1 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0230,Q2 2026,4.7,3.8,4.3,Met expectations for the quarter.
+E0230,Q3 2026,4.4,4.5,4.0,Met expectations for the quarter.
+E0231,Q4 2025,4.7,4.3,4.3,Met expectations for the quarter.
+E0231,Q1 2026,5,4.8,4.8,Met expectations for the quarter.
+E0231,Q2 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0231,Q3 2026,5,4.1,4.6,Met expectations for the quarter.
+E0232,Q4 2025,3.3,2.9,2.9,Met expectations for the quarter.
+E0232,Q1 2026,3.9,3.5,3.5,Met expectations for the quarter.
+E0232,Q2 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0232,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0233,Q4 2025,4.1,4.2,3.7,Met expectations for the quarter.
+E0233,Q1 2026,3.8,3.4,3.4,Met expectations for the quarter.
+E0233,Q2 2026,3.6,3.2,3.2,Met expectations for the quarter.
+E0233,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0234,Q4 2025,4.8,3.9,4.4,Met expectations for the quarter.
+E0234,Q1 2026,4.4,3.5,4.0,Met expectations for the quarter.
+E0234,Q2 2026,5,4.7,4.7,Met expectations for the quarter.
+E0234,Q3 2026,4.6,4.7,4.2,Met expectations for the quarter.
+E0235,Q4 2025,3.6,3.7,3.2,Met expectations for the quarter.
+E0235,Q1 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0235,Q2 2026,3.4,3.0,3.0,Met expectations for the quarter.
+E0235,Q3 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0236,Q4 2025,3.6,3.7,3.2,Met expectations for the quarter.
+E0236,Q1 2026,4.5,3.6,4.1,Met expectations for the quarter.
+E0236,Q2 2026,3.3,3.4,2.9,Met expectations for the quarter.
+E0236,Q3 2026,3.9,3.0,3.5,Met expectations for the quarter.
+E0237,Q4 2025,2.9,3.0,2.5,Met expectations for the quarter.
+E0237,Q1 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0237,Q2 2026,2.7,2.3,2.3,Met expectations for the quarter.
+E0237,Q3 2026,2.9,2.5,2.5,Met expectations for the quarter.
+E0238,Q4 2025,5,4.6,4.6,Met expectations for the quarter.
+E0238,Q1 2026,4.6,4.2,4.2,Met expectations for the quarter.
+E0238,Q2 2026,4.9,5,4.5,Met expectations for the quarter.
+E0238,Q3 2026,5,4.7,4.7,Met expectations for the quarter.
+E0239,Q4 2025,4.4,4.0,4.0,Met expectations for the quarter.
+E0239,Q1 2026,5,4.1,4.6,Met expectations for the quarter.
+E0239,Q2 2026,4.2,3.8,3.8,Met expectations for the quarter.
+E0239,Q3 2026,4.7,4.3,4.3,Met expectations for the quarter.
+E0240,Q2 2026,4.5,4.6,4.1,Met expectations for the quarter.
+E0240,Q3 2026,4.3,4.4,3.9,Met expectations for the quarter.
+E0241,Q4 2025,3.6,3.2,3.2,Met expectations for the quarter.
+E0241,Q1 2026,3.2,2.8,2.8,Met expectations for the quarter.
+E0241,Q2 2026,3.7,3.8,3.3,Met expectations for the quarter.
+E0241,Q3 2026,3.1,2.2,2.7,Met expectations for the quarter.
+E0242,Q4 2025,4.8,3.9,4.4,Met expectations for the quarter.
+E0242,Q1 2026,5,4.9,4.9,Met expectations for the quarter.
+E0242,Q2 2026,5,4.9,4.9,Met expectations for the quarter.
+E0242,Q3 2026,5,5,4.8,Met expectations for the quarter.
+E0243,Q4 2025,3.8,3.4,3.4,Met expectations for the quarter.
+E0243,Q1 2026,3.2,2.3,2.8,Met expectations for the quarter.
+E0243,Q2 2026,3.7,3.3,3.3,Met expectations for the quarter.
+E0243,Q3 2026,3.5,2.6,3.1,Met expectations for the quarter.
+E0244,Q4 2025,2.5,1.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0244,Q1 2026,2.2,1.8,1.8,Missed agreed targets; needs closer support on priorities.
+E0244,Q2 2026,2.1,1.2,1.7,
+E0244,Q3 2026,2.6,2.2,2.2,Missed agreed targets; needs closer support on priorities.
+E0245,Q4 2025,4.2,3.8,3.8,Met expectations for the quarter.
+E0245,Q1 2026,4.9,4.5,4.5,Met expectations for the quarter.
+E0245,Q2 2026,4.4,4.0,4.0,Met expectations for the quarter.
+E0245,Q3 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0246,Q4 2025,3.0,2.6,2.6,Met expectations for the quarter.
+E0246,Q1 2026,2.8,2.9,2.4,Met expectations for the quarter.
+E0246,Q2 2026,2.5,1.6,2.1,Missed agreed targets; needs closer support on priorities.
+E0246,Q3 2026,2.6,2.2,2.2,
+E0247,Q4 2025,2.8,2.4,2.4,Met expectations for the quarter.
+E0247,Q1 2026,2.1,1.2,1.7,Missed agreed targets; needs closer support on priorities.
+E0247,Q2 2026,3.0,3.1,2.6,Met expectations for the quarter.
+E0247,Q3 2026,2.7,1.8,2.3,Met expectations for the quarter.
+E0248,Q1 2026,4.3,3.9,3.9,Met expectations for the quarter.
+E0248,Q2 2026,5,4.7,4.7,Met expectations for the quarter.
+E0248,Q3 2026,4.7,4.8,4.3,Met expectations for the quarter.
+E0249,Q4 2025,4.3,3.4,3.9,Met expectations for the quarter.
+E0249,Q1 2026,3.7,2.8,3.3,Met expectations for the quarter.
+E0249,Q2 2026,3.6,3.7,3.2,Met expectations for the quarter.
+E0249,Q3 2026,3.9,4.0,3.5,Met expectations for the quarter.
+E0250,Q4 2025,2.3,1.9,1.9,Missed agreed targets; needs closer support on priorities.
+E0250,Q1 2026,2.0,1.1,1.6,Missed agreed targets; needs closer support on priorities.
+E0250,Q2 2026,2.6,2.2,2.2,
+E0250,Q3 2026,2.4,2.0,2.0,

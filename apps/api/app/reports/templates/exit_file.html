@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Exit file · {{ e.employee_code }}</title>
+<style>
+  @page { size: A4; margin: 18mm 14mm 20mm;
+    @bottom-left { content: "Unlink · {{ org_name }} · Exit file · Confidential"; font-size: 8pt; color: #666; }
+    @bottom-right { content: "Page " counter(page) " of " counter(pages); font-size: 8pt; color: #666; } }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 9.5pt; color: #1a1a1a; }
+  h1 { font-size: 17pt; margin: 0 0 2mm; } h2 { font-size: 12pt; margin: 7mm 0 2mm; border-bottom: 1px solid #ddd; padding-bottom: 1mm; }
+  .muted { color: #666; } table { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+  th, td { text-align: left; padding: 1.2mm 1.5mm; border-bottom: 1px solid #eee; vertical-align: top; }
+  th { background: #f5f5f5; font-size: 8.5pt; } td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .mono { font-family: Menlo, monospace; font-size: 7.5pt; word-break: break-all; }
+</style>
+</head>
+<body>
+  <div class="muted">Unlink · {{ org_name }} · Exit file · generated {{ generated_at }} by {{ generated_by }}</div>
+  <h1>{{ e.full_name }} <span class="muted">({{ e.employee_code }})</span></h1>
+  <table>
+    <tr><th>Role</th><td>{{ e.role }}, {{ e.department }}, {{ e.location }}</td><th>State</th><td>{{ case.state }}</td></tr>
+    <tr><th>Plan</th><td>#{{ plan.id }} {{ plan.name }}</td><th>Selection basis</th><td>{{ case.selection_basis }}</td></tr>
+    <tr><th>Notice date</th><td>{{ case.notice_date or "-" }}</td><th>Last working day</th><td>{{ case.actual_last_day or case.last_working_day or "-" }}{% if case.pay_in_lieu %} (paid in lieu){% endif %}</td></tr>
+    <tr><th>Effective</th><td>{{ case.effective_at or "-" }}</td><th>Closed</th><td>{{ case.closed_at or "-" }}</td></tr>
+  </table>
+
+  <h2>Reason and evidence</h2>
+  <p><b>{{ case.reason_code or "Not set" }}</b>{% if reason_name %} · {{ reason_name }}{% endif %} (version {{ case.reason_version }})</p>
+  <p>Required: {{ evidence.requirement or "-" }}. Status: {{ "satisfied" if evidence.ok else evidence.missing }}.</p>
+  <ul>{% for f in evidence.found %}<li>{{ f }}</li>{% endfor %}</ul>
+  {% if trace %}<p class="muted">Notice period: {% for t in trace %}{{ t.step }}{% if t.rule %} [{{ t.rule }}]{% endif %}; {% endfor %}</p>{% endif %}
+
+  <h2>Notices</h2>
+  <table><tr><th>Subject</th><th>Status</th><th>Sent</th><th>Acknowledged</th><th>Content hash</th></tr>
+  {% for m in messages %}<tr><td>{{ m.subject }}</td><td>{{ m.status }}</td><td>{{ m.sent_at or "" }}</td><td>{{ m.ack or "" }}</td><td class="mono">{{ m.content_hash[:16] }}…</td></tr>
+  {% else %}<tr><td colspan="5" class="muted">None</td></tr>{% endfor %}</table>
+
+  <h2>Full and final settlement</h2>
+  {% if fnf %}<p>Version {{ fnf.version }} · {{ fnf.status }} · net {{ money(fnf.net_paise) }} · due {{ fnf.payment_due_on or "-" }}{% if fnf.paid_at %} · paid {{ fnf.paid_at }} ({{ fnf.payment_reference }}){% endif %}</p>
+  <table><tr><th>Component</th><th>Basis</th><th>Rule</th><th class="n">Amount</th></tr>
+  {% for l in fnf_lines %}<tr><td>{{ l.label }}</td><td>{{ l.formula }}</td><td>{{ l.rule_key or "payroll" }}</td><td class="n">{{ "-" if l.kind == "deduction" }}{{ money(l.amount_paise) }}</td></tr>{% endfor %}</table>
+  {% else %}<p class="muted">Not computed</p>{% endif %}
+
+  <h2>Documents issued</h2>
+  <table><tr><th>Document</th><th>Version</th><th>Issued</th><th>By</th><th>SHA-256</th></tr>
+  {% for d in documents %}<tr><td>{{ d.title }}</td><td>{{ d.version }}</td><td>{{ d.issued_at }}</td><td>{{ d.issued_by }}</td><td class="mono">{{ d.sha256 }}</td></tr>
+  {% else %}<tr><td colspan="5" class="muted">None</td></tr>{% endfor %}</table>
+
+  <h2>Clearance</h2>
+  <table><tr><th>Item</th><th>Status</th><th>Note</th><th>Updated by</th></tr>
+  {% for c in clearance %}<tr><td>{{ c.label }}</td><td>{{ c.status }}</td><td>{{ c.note or "" }}</td><td>{{ c.updated_by or "" }}</td></tr>
+  {% else %}<tr><td colspan="4" class="muted">Not started</td></tr>{% endfor %}</table>
+
+  <h2>Grievances and appeals</h2>
+  <table><tr><th>Ref</th><th>Category</th><th>Status</th><th>Outcome</th><th>Appeal</th></tr>
+  {% for g in grievances %}<tr><td>{{ g.ref }}</td><td>{{ g.category }}</td><td>{{ g.status }}</td><td>{{ g.outcome or "" }}</td><td>{{ g.appeal or "" }}</td></tr>
+  {% else %}<tr><td colspan="5" class="muted">None</td></tr>{% endfor %}</table>
+
+  <h2>Audit trail</h2>
+  <table><tr><th>When</th><th>Who</th><th>Action</th><th>Justification</th></tr>
+  {% for a in audit %}<tr><td>{{ a.created_at.strftime("%Y-%m-%d %H:%M") }}</td><td>{{ a.actor }}</td><td>{{ a.entity_type }} · {{ a.action }}</td><td>{{ a.justification or "" }}</td></tr>{% endfor %}</table>
+</body>
+</html>

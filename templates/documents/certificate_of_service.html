@@ -1,0 +1,12 @@
+{% extends "_base.html" %}
+{% block content %}
+<h1>Certificate of service</h1>
+<table>
+  <tr><th>Name</th><td>{{ employee_name }}</td></tr>
+  <tr><th>Employee code</th><td>{{ employee_code }}</td></tr>
+  <tr><th>Designation at exit</th><td>{{ role }}</td></tr>
+  <tr><th>Department</th><td>{{ department }}</td></tr>
+  <tr><th>Period of service</th><td>{{ hire_date }} to {{ last_working_day }}</td></tr>
+</table>
+<div class="sign">For {{ company_name }}<br><br>Human Resources</div>
+{% endblock %}

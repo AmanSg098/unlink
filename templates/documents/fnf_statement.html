@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+{% block content %}
+<h1>Full and final settlement statement</h1>
+<table>
+  <tr><th>Employee</th><td>{{ employee_name }} ({{ employee_code }})</td><th>Last working day</th><td>{{ last_working_day }}</td></tr>
+  <tr><th>Role</th><td>{{ role }}, {{ department }}</td><th>Statement</th><td>Version {{ fnf.version }} · {{ fnf.status }}</td></tr>
+  <tr><th>Date of joining</th><td>{{ hire_date }}</td><th>Payment due by</th><td>{{ fnf.payment_due_on or "-" }}</td></tr>
+</table>
+<table>
+  <tr><th>Component</th><th>Basis</th><th>Rule</th><th class="n">Earnings</th><th class="n">Deductions</th></tr>
+  {% for l in lines %}
+  <tr><td>{{ l.label }}</td><td class="small">{{ l.formula }}</td><td class="small">{{ l.rule_key or "payroll" }}</td>
+    <td class="n">{% if l.kind == "earning" %}{{ money(l.amount_paise) }}{% endif %}</td>
+    <td class="n">{% if l.kind == "deduction" %}{{ money(l.amount_paise) }}{% endif %}</td></tr>
+  {% endfor %}
+  <tr class="total"><td colspan="3">Totals</td><td class="n">{{ money(fnf.earnings_paise) }}</td><td class="n">{{ money(fnf.deductions_paise) }}</td></tr>
+  <tr class="total"><td colspan="3">Net payable (rounded per IN-FNF-002)</td><td class="n" colspan="2">{{ money(fnf.net_paise) }}</td></tr>
+</table>
+<p class="small muted">Amounts are calculated from payroll inputs and the ruleset in force ({{ ruleset }}). Unlink records payment but does not move money. Tax, provident fund and statutory filings are handled by payroll.</p>
+{% endblock %}

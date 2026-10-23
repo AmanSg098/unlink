@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unlink · {{ plan.name }}</title>
+<style>
+  @page { size: A4; margin: 18mm 14mm 20mm;
+    @bottom-left { content: "Unlink · {{ org_name }} · Defensibility pack{% if external %} (external copy){% endif %}"; font-size: 8pt; color: #666; }
+    @bottom-right { content: "Page " counter(page) " of " counter(pages); font-size: 8pt; color: #666; } }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 9.5pt; color: #1a1a1a; }
+  h1 { font-size: 18pt; margin: 0 0 2mm; }
+  h2 { font-size: 12pt; margin: 7mm 0 2mm; border-bottom: 1px solid #ddd; padding-bottom: 1mm; }
+  .muted { color: #666; }
+  .banner { background: #fff7e6; border: 1px solid #f0c36d; padding: 2mm 3mm; margin: 3mm 0; }
+  .warn { background: #fdecea; border-color: #e6a39b; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1mm; }
+  th, td { text-align: left; padding: 1.2mm 1.5mm; border-bottom: 1px solid #eee; vertical-align: top; }
+  th { background: #f5f5f5; font-weight: 600; font-size: 8.5pt; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .flag { color: #b42318; font-weight: 600; }
+  tr { page-break-inside: avoid; }
+</style>
+</head>
+<body>
+  <div class="muted">Unlink · {{ org_name }} · Defensibility pack{% if external %} · external copy (names removed){% endif %}</div>
+  <h1>{{ plan.name }}</h1>
+  <div class="muted">Plan #{{ plan.id }} v{{ plan.version }} · {{ plan.status }} · method {{ plan.selection_method }} · data as of {{ plan.as_of_date }}
+    · generated {{ generated_at }} by {{ generated_by }}</div>
+  {% if plan.description %}<p><b>Business rationale:</b> {{ plan.description }}</p>{% endif %}
+  {% for c in checks %}<div class="banner {{ 'warn' if c.severity != 'info' }}">{{ c.message }}{% if c.rule %} ({{ c.rule }}){% endif %}</div>{% endfor %}
+
+  <h2>Approval history</h2>
+  <table><tr><th>Round</th><th>Step</th><th>Status</th><th>By</th><th>When</th><th>Comment</th></tr>
+  {% for a in approvals %}<tr><td>{{ a.round }}</td><td>{{ a.step }}</td><td>{{ a.status }}</td><td>{{ a.decided_by or "" }}</td><td>{{ a.decided_at or "" }}</td><td>{{ a.comment or "" }}</td></tr>
+  {% else %}<tr><td colspan="6" class="muted">Not submitted</td></tr>{% endfor %}</table>
+
+  <h2>Method</h2>
+  <p>Scope: {{ scope }}. Targets: {{ targets }}. Ruleset: {{ ruleset_label }}.</p>
+  <p>Each eligible person gets a retention score from 0 to 100: factors are min-max normalised across the eligible pool,
+    lower-is-better factors are inverted, and the weighted sum is scaled to 100. Lowest scores are proposed; ties break on
+    employee ID. Hard exclusions (protected leave, protected status, legal hold, open grievance, active PIP, notice already
+    started) are applied before scoring and cannot be overridden.</p>
+  <table><tr><th>Factor</th><th>Definition</th><th>Direction</th><th class="n">Weight</th></tr>
+  {% for f in factors %}<tr><td>{{ f.label }}</td><td>{{ f.description }}</td><td>{{ "Higher is better" if f.higher_is_better else "Lower is better" }}</td><td class="n">{{ "%.0f" % (f.weight * 100) }}%</td></tr>
+  {% else %}<tr><td colspan="4" class="muted">No weights (selection by {{ plan.selection_method }})</td></tr>{% endfor %}</table>
+
+  <h2>Fairness check</h2>
+  {% if fairness.any_flagged %}<div class="banner warn">Flags: {{ fairness.flags | join("; ") }}.{% if fairness.justification %} Approver's justification: "{{ fairness.justification }}"{% endif %}</div>{% endif %}
+  {% for attr, groups in fairness.by_attribute.items() %}
+  <p><b>{{ attr.replace("_", " ") | capitalize }}</b></p>
+  <table><tr><th>Group</th><th class="n">In scope</th><th class="n">Proposed</th><th class="n">Retention</th><th class="n">Impact ratio</th></tr>
+  {% for g in groups %}<tr><td>{{ g.group }}{% if g.small_sample %} <span class="muted">(small n)</span>{% endif %}</td><td class="n">{{ g.pool }}</td><td class="n">{{ g.selected }}</td><td class="n">{{ "%.1f" % (g.retention_rate * 100) }}%</td><td class="n {{ 'flag' if g.flagged }}">{{ "%.2f" % g.impact_ratio if g.impact_ratio is not none else "-" }}</td></tr>{% endfor %}
+  </table>{% endfor %}
+
+  <h2>Selected people by reason ({{ selected | length }})</h2>
+  <table><tr><th>Reason</th><th>Employee</th><th>Department / role</th><th class="n">Score</th><th>Basis</th><th>Case</th></tr>
+  {% for s in selected %}<tr><td>{{ s.reason }}</td><td>{% if external %}{{ s.code }}{% else %}{{ s.name }} <span class="muted">{{ s.code }}</span>{% endif %}</td><td>{{ s.department }} · {{ s.role }}</td><td class="n">{{ s.score }}</td><td>{{ s.basis }}</td><td>{{ s.state }}</td></tr>{% endfor %}</table>
+
+  <h2>Protected from selection</h2>
+  <table><tr><th>Reason</th><th class="n">People</th></tr>
+  {% for r, n in exclusions.items() %}<tr><td>{{ r }}</td><td class="n">{{ n }}</td></tr>{% else %}<tr><td colspan="2" class="muted">None in scope</td></tr>{% endfor %}</table>
+
+  <h2>Override log</h2>
+  <table><tr><th>Employee</th><th>Action</th><th>By</th><th>When</th><th>Justification</th><th>Status</th></tr>
+  {% for o in overrides %}<tr><td>{{ o.code }}</td><td>{{ o.action }}</td><td>{{ o.by }}</td><td>{{ o.at }}</td><td>{{ o.justification }}</td><td>{{ o.status }}</td></tr>
+  {% else %}<tr><td colspan="6" class="muted">No overrides</td></tr>{% endfor %}</table>
+
+  <h2>Communications</h2>
+  <table><tr><th>Batch</th><th>Status</th><th>Approved by</th><th>Released</th><th class="n">Messages</th><th class="n">Delivered</th><th class="n">Bounced</th><th class="n">Acknowledged</th></tr>
+  {% for b in batches %}<tr><td>{{ b.name }}</td><td>{{ b.status }}</td><td>{{ b.approved_by }}</td><td>{{ b.released_at or "" }}</td><td class="n">{{ b.messages }}</td><td class="n">{{ b.delivered }}</td><td class="n">{{ b.bounced }}</td><td class="n">{{ b.acknowledged }}</td></tr>
+  {% else %}<tr><td colspan="8" class="muted">No notices yet</td></tr>{% endfor %}</table>
+  <p class="muted">Templates used: {{ templates_used | join(", ") or "none" }}</p>
+
+  <h2>FNF totals by component (approved statements)</h2>
+  <table><tr><th>Component</th><th>Kind</th><th class="n">Total</th></tr>
+  {% for c in fnf_totals %}<tr><td>{{ c.label }}</td><td>{{ c.kind }}</td><td class="n">{{ money(c.total) }}</td></tr>
+  {% else %}<tr><td colspan="3" class="muted">No approved FNF statements</td></tr>{% endfor %}</table>
+
+  <h2>Audit trail (latest {{ audit | length }})</h2>
+  <table><tr><th>When</th><th>Who</th><th>Entity</th><th>Action</th><th>Justification</th></tr>
+  {% for a in audit %}<tr><td>{{ a.created_at.strftime("%Y-%m-%d %H:%M") }}</td><td>{{ a.actor }}</td><td>{{ a.entity_type }} #{{ a.entity_id }}</td><td>{{ a.action }}</td><td>{{ a.justification or "" }}</td></tr>{% endfor %}</table>
+</body>
+</html>

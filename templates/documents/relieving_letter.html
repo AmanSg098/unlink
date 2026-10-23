@@ -1,0 +1,11 @@
+{% extends "_base.html" %}
+{% block content %}
+<p>{{ employee_name }}<br><span class="muted">Employee code {{ employee_code }}</span></p>
+<h1>Relieving letter</h1>
+<div class="body">
+<p>This is to confirm that {{ employee_name }} has been relieved from the services of {{ company_name }} with effect from the close of business on {{ last_working_day }}.</p>
+<p>{{ employee_name }} worked with us from {{ hire_date }} to {{ last_working_day }}, most recently as {{ role }} in the {{ department }} department. All dues have been settled as per the full and final settlement, and company clearance is complete.</p>
+<p>We wish {{ employee_name }} the very best for the future.</p>
+</div>
+<div class="sign">For {{ company_name }}<br><br>Human Resources</div>
+{% endblock %}

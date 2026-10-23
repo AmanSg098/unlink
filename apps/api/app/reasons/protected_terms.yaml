@@ -1,0 +1,14 @@
+# Terms that must not appear in exit reasons or notice text. Reviewed by Legal.
+# Matching is case-insensitive on whole words (and listed phrases).
+# A match blocks the text and lists the terms so a person can review the wording.
+terms:
+  pregnancy: [pregnant, pregnancy, maternity, expecting a baby]
+  disability: [disability, disabled, handicap, impairment]
+  health: [illness, sick leave, medical condition, diagnosis, mental health, cancer, hiv]
+  religion: [religion, religious, hindu, muslim, christian, sikh, jain, buddhist, parsi]
+  caste: [caste, dalit, scheduled caste, scheduled tribe, obc]
+  sex_and_gender: [gender, transgender, woman, women, female, male]
+  age: [too old, age, retirement age, elderly]
+  marital_family: [marital status, married, divorce, family responsibilities]
+  union: [trade union, union activity, union member]
+  complaint: [whistleblower, complaint against, harassment complaint]
